@@ -1,0 +1,24 @@
+{
+  "packageManager": "yarn@4.3.1",
+  "private": true,
+  "workspaces": [
+    "react-native",
+    "react-native-cli",
+    "metro",
+    "expo"
+  ],
+  "resolutions": {
+    "@react-native-community/cli": "link:react-native-cli/packages/cli",
+    "@react-native-community/cli-clean": "link:react-native-cli/packages/cli-clean",
+    "@react-native-community/cli-config": "link:react-native-cli/packages/cli-config",
+    "@react-native-community/cli-debugger-ui": "link:react-native-cli/packages/cli-debugger-ui",
+    "@react-native-community/cli-doctor": "link:react-native-cli/packages/cli-doctor",
+    "@react-native-community/cli-link-assets": "link:react-native-cli/packages/cli-link-assets",
+    "@react-native-community/cli-platform-android": "link:react-native-cli/packages/cli-platform-android",
+    "@react-native-community/cli-platform-apple": "link:react-native-cli/packages/cli-platform-apple",
+    "@react-native-community/cli-platform-ios": "link:react-native-cli/packages/cli-platform-ios",
+    "@react-native-community/cli-server-api": "link:react-native-cli/packages/cli-server-api",
+    "@react-native-community/cli-tools": "link:react-native-cli/packages/cli-tools",
+    "@react-native-community/cli-types": "link:react-native-cli/packages/cli-types"
+  }
+}
