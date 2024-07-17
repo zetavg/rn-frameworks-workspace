@@ -308,7 +308,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-environment-visitor@npm:^7.18.9, @babel/helper-environment-visitor@npm:^7.24.7":
+"@babel/helper-environment-visitor@npm:^7.24.7":
   version: 7.24.7
   resolution: "@babel/helper-environment-visitor@npm:7.24.7"
   dependencies:
@@ -387,7 +387,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-remap-async-to-generator@npm:^7.18.9, @babel/helper-remap-async-to-generator@npm:^7.24.7":
+"@babel/helper-remap-async-to-generator@npm:^7.24.7":
   version: 7.24.7
   resolution: "@babel/helper-remap-async-to-generator@npm:7.24.7"
   dependencies:
@@ -554,21 +554,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-proposal-async-generator-functions@npm:^7.0.0":
-  version: 7.20.7
-  resolution: "@babel/plugin-proposal-async-generator-functions@npm:7.20.7"
-  dependencies:
-    "@babel/helper-environment-visitor": "npm:^7.18.9"
-    "@babel/helper-plugin-utils": "npm:^7.20.2"
-    "@babel/helper-remap-async-to-generator": "npm:^7.18.9"
-    "@babel/plugin-syntax-async-generators": "npm:^7.8.4"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 10c0/0f4bc01805704ae4840536acc9888c50a32250e9188d025063bd17fe77ed171a12361c3dc83ce99664dcd73aec612accb8da95b0d8b825c854931b2860c0bfb5
-  languageName: node
-  linkType: hard
-
-"@babel/plugin-proposal-class-properties@npm:^7.0.0, @babel/plugin-proposal-class-properties@npm:^7.13.0, @babel/plugin-proposal-class-properties@npm:^7.18.0":
+"@babel/plugin-proposal-class-properties@npm:^7.0.0, @babel/plugin-proposal-class-properties@npm:^7.13.0":
   version: 7.18.6
   resolution: "@babel/plugin-proposal-class-properties@npm:7.18.6"
   dependencies:
@@ -617,19 +603,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-proposal-logical-assignment-operators@npm:^7.18.0":
-  version: 7.20.7
-  resolution: "@babel/plugin-proposal-logical-assignment-operators@npm:7.20.7"
-  dependencies:
-    "@babel/helper-plugin-utils": "npm:^7.20.2"
-    "@babel/plugin-syntax-logical-assignment-operators": "npm:^7.10.4"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 10c0/436c1ee9f983813fc52788980a7231414351bd34d80b16b83bddb09115386292fe4912cc6d172304eabbaf0c4813625331b9b5bc798acb0e8925cf0d2b394d4d
-  languageName: node
-  linkType: hard
-
-"@babel/plugin-proposal-nullish-coalescing-operator@npm:^7.13.8, @babel/plugin-proposal-nullish-coalescing-operator@npm:^7.18.0":
+"@babel/plugin-proposal-nullish-coalescing-operator@npm:^7.13.8":
   version: 7.18.6
   resolution: "@babel/plugin-proposal-nullish-coalescing-operator@npm:7.18.6"
   dependencies:
@@ -641,19 +615,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-proposal-numeric-separator@npm:^7.0.0":
-  version: 7.18.6
-  resolution: "@babel/plugin-proposal-numeric-separator@npm:7.18.6"
-  dependencies:
-    "@babel/helper-plugin-utils": "npm:^7.18.6"
-    "@babel/plugin-syntax-numeric-separator": "npm:^7.10.4"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 10c0/a83a65c6ec0d2293d830e9db61406d246f22d8ea03583d68460cb1b6330c6699320acce1b45f66ba3c357830720e49267e3d99f95088be457c66e6450fbfe3fa
-  languageName: node
-  linkType: hard
-
-"@babel/plugin-proposal-object-rest-spread@npm:^7.0.0, @babel/plugin-proposal-object-rest-spread@npm:^7.20.0":
+"@babel/plugin-proposal-object-rest-spread@npm:^7.0.0":
   version: 7.20.7
   resolution: "@babel/plugin-proposal-object-rest-spread@npm:7.20.7"
   dependencies:
@@ -668,19 +630,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-proposal-optional-catch-binding@npm:^7.0.0":
-  version: 7.18.6
-  resolution: "@babel/plugin-proposal-optional-catch-binding@npm:7.18.6"
-  dependencies:
-    "@babel/helper-plugin-utils": "npm:^7.18.6"
-    "@babel/plugin-syntax-optional-catch-binding": "npm:^7.8.3"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 10c0/ab20153d9e95e0b73004fdf86b6a2d219be2a0ace9ca76cd9eccddb680c913fec173bca54d761b1bc6044edde0a53811f3e515908c3b16d2d81cfec1e2e17391
-  languageName: node
-  linkType: hard
-
-"@babel/plugin-proposal-optional-chaining@npm:^7.13.12, @babel/plugin-proposal-optional-chaining@npm:^7.20.0":
+"@babel/plugin-proposal-optional-chaining@npm:^7.13.12":
   version: 7.21.0
   resolution: "@babel/plugin-proposal-optional-chaining@npm:7.21.0"
   dependencies:
@@ -2084,7 +2034,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/cli@npm:0.18.13, @expo/cli@workspace:expo/packages/@expo/cli":
+"@expo/cli@link:expo/packages/@expo/cli::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/cli@link:expo/packages/@expo/cli::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/cli@workspace:expo/packages/@expo/cli":
   version: 0.0.0-use.local
   resolution: "@expo/cli@workspace:expo/packages/@expo/cli"
   dependencies:
@@ -2222,7 +2178,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/config-plugins@npm:8.0.4, @expo/config-plugins@npm:^8.0.0, @expo/config-plugins@npm:~8.0.0, @expo/config-plugins@workspace:expo/packages/@expo/config-plugins":
+"@expo/config-plugins@link:expo/packages/@expo/config-plugins::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/config-plugins@link:expo/packages/@expo/config-plugins::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/config-plugins@workspace:expo/packages/@expo/config-plugins":
   version: 0.0.0-use.local
   resolution: "@expo/config-plugins@workspace:expo/packages/@expo/config-plugins"
   dependencies:
@@ -2248,7 +2210,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@expo/config-types@npm:^51.0.0-unreleased, @expo/config-types@workspace:expo/packages/@expo/config-types":
+"@expo/config-types@link:expo/packages/@expo/config-types::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/config-types@link:expo/packages/@expo/config-types::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/config-types@workspace:expo/packages/@expo/config-types":
   version: 0.0.0-use.local
   resolution: "@expo/config-types@workspace:expo/packages/@expo/config-types"
   dependencies:
@@ -2258,7 +2226,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@expo/config@npm:9.0.2, @expo/config@npm:^9.0.0, @expo/config@npm:^9.0.2, @expo/config@npm:~9.0.0, @expo/config@workspace:expo/packages/@expo/config":
+"@expo/config@link:expo/packages/@expo/config::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/config@link:expo/packages/@expo/config::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/config@workspace:expo/packages/@expo/config":
   version: 0.0.0-use.local
   resolution: "@expo/config@workspace:expo/packages/@expo/config"
   dependencies:
@@ -2299,7 +2273,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/env@npm:~0.3.0, @expo/env@workspace:expo/packages/@expo/env":
+"@expo/env@link:expo/packages/@expo/env::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/env@link:expo/packages/@expo/env::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/env@workspace:expo/packages/@expo/env":
   version: 0.0.0-use.local
   resolution: "@expo/env@workspace:expo/packages/@expo/env"
   dependencies:
@@ -2326,7 +2306,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@expo/fingerprint@npm:^0.9.0, @expo/fingerprint@workspace:expo/packages/@expo/fingerprint":
+"@expo/fingerprint@link:expo/packages/@expo/fingerprint::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/fingerprint@link:expo/packages/@expo/fingerprint::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/fingerprint@workspace:expo/packages/@expo/fingerprint":
   version: 0.0.0-use.local
   resolution: "@expo/fingerprint@workspace:expo/packages/@expo/fingerprint"
   dependencies:
@@ -2433,7 +2419,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@expo/html-elements@npm:^0.10.0, @expo/html-elements@workspace:expo/packages/html-elements":
+"@expo/html-elements@link:expo/packages/html-elements::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/html-elements@link:expo/packages/html-elements::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/html-elements@workspace:expo/packages/html-elements":
   version: 0.0.0-use.local
   resolution: "@expo/html-elements@workspace:expo/packages/html-elements"
   dependencies:
@@ -2441,7 +2433,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@expo/image-utils@npm:^0.5.0, @expo/image-utils@workspace:expo/packages/@expo/image-utils":
+"@expo/image-utils@link:expo/packages/@expo/image-utils::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/image-utils@link:expo/packages/@expo/image-utils::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/image-utils@workspace:expo/packages/@expo/image-utils":
   version: 0.0.0-use.local
   resolution: "@expo/image-utils@workspace:expo/packages/@expo/image-utils"
   dependencies:
@@ -2463,7 +2461,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@expo/json-file@npm:^8.3.0, @expo/json-file@npm:^8.3.3, @expo/json-file@npm:~8.3.0, @expo/json-file@workspace:expo/packages/@expo/json-file":
+"@expo/json-file@link:expo/packages/@expo/json-file::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/json-file@link:expo/packages/@expo/json-file::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/json-file@workspace:expo/packages/@expo/json-file":
   version: 0.0.0-use.local
   resolution: "@expo/json-file@workspace:expo/packages/@expo/json-file"
   dependencies:
@@ -2477,7 +2481,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@expo/metro-config@npm:0.18.4, @expo/metro-config@npm:~0.18.0, @expo/metro-config@workspace:expo/packages/@expo/metro-config":
+"@expo/metro-config@link:expo/packages/@expo/metro-config::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/metro-config@link:expo/packages/@expo/metro-config::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/metro-config@workspace:expo/packages/@expo/metro-config":
   version: 0.0.0-use.local
   resolution: "@expo/metro-config@workspace:expo/packages/@expo/metro-config"
   dependencies:
@@ -2507,7 +2517,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@expo/metro-runtime@npm:3.2.1, @expo/metro-runtime@workspace:expo/packages/@expo/metro-runtime":
+"@expo/metro-runtime@link:expo/packages/@expo/metro-runtime::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/metro-runtime@link:expo/packages/@expo/metro-runtime::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/metro-runtime@workspace:expo/packages/@expo/metro-runtime":
   version: 0.0.0-use.local
   resolution: "@expo/metro-runtime@workspace:expo/packages/@expo/metro-runtime"
   peerDependencies:
@@ -2679,7 +2695,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/osascript@npm:^2.0.31, @expo/osascript@workspace:expo/packages/@expo/osascript":
+"@expo/osascript@link:expo/packages/@expo/osascript::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/osascript@link:expo/packages/@expo/osascript::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/osascript@workspace:expo/packages/@expo/osascript":
   version: 0.0.0-use.local
   resolution: "@expo/osascript@workspace:expo/packages/@expo/osascript"
   dependencies:
@@ -2689,7 +2711,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@expo/package-manager@npm:^1.5.0, @expo/package-manager@workspace:expo/packages/@expo/package-manager":
+"@expo/package-manager@link:expo/packages/@expo/package-manager::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/package-manager@link:expo/packages/@expo/package-manager::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/package-manager@workspace:expo/packages/@expo/package-manager":
   version: 0.0.0-use.local
   resolution: "@expo/package-manager@workspace:expo/packages/@expo/package-manager"
   dependencies:
@@ -2722,7 +2750,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@expo/plist@npm:^0.1.0, @expo/plist@workspace:expo/packages/@expo/plist":
+"@expo/plist@link:expo/packages/@expo/plist::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/plist@link:expo/packages/@expo/plist::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/plist@workspace:expo/packages/@expo/plist":
   version: 0.0.0-use.local
   resolution: "@expo/plist@workspace:expo/packages/@expo/plist"
   dependencies:
@@ -2734,7 +2768,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@expo/prebuild-config@npm:7.0.4, @expo/prebuild-config@npm:^7.0.4, @expo/prebuild-config@workspace:expo/packages/@expo/prebuild-config":
+"@expo/prebuild-config@link:expo/packages/@expo/prebuild-config::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/prebuild-config@link:expo/packages/@expo/prebuild-config::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/prebuild-config@workspace:expo/packages/@expo/prebuild-config":
   version: 0.0.0-use.local
   resolution: "@expo/prebuild-config@workspace:expo/packages/@expo/prebuild-config"
   dependencies:
@@ -2813,7 +2853,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@expo/schemer@npm:1.5.2, @expo/schemer@workspace:expo/packages/@expo/schemer":
+"@expo/schemer@link:expo/packages/@expo/schemer::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/schemer@link:expo/packages/@expo/schemer::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/schemer@workspace:expo/packages/@expo/schemer":
   version: 0.0.0-use.local
   resolution: "@expo/schemer@workspace:expo/packages/@expo/schemer"
   dependencies:
@@ -2833,7 +2879,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/server@npm:^0.4.0, @expo/server@npm:^0.4.2, @expo/server@workspace:expo/packages/@expo/server":
+"@expo/server@link:expo/packages/@expo/server::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@expo/server@link:expo/packages/@expo/server::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@expo/server@workspace:expo/packages/@expo/server":
   version: 0.0.0-use.local
   resolution: "@expo/server@workspace:expo/packages/@expo/server"
   dependencies:
@@ -6942,38 +6994,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native/assets-registry@npm:0.74.84":
-  version: 0.74.84
-  resolution: "@react-native/assets-registry@npm:0.74.84"
-  checksum: 10c0/78ce8c8106e24597879b8efe0698aafc83a2f358184e68d945d6c5567cbbfdd0098b4c40953051c8e486337e8b85e762c7799747acdd2f9d456eed35b8937115
+"@react-native/assets-registry@link:react-native/packages/assets::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/assets-registry@link:react-native/packages/assets::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native/assets-registry@npm:0.75.0-rc.5, @react-native/assets-registry@workspace:react-native/packages/assets":
+"@react-native/assets-registry@workspace:react-native/packages/assets":
   version: 0.0.0-use.local
   resolution: "@react-native/assets-registry@workspace:react-native/packages/assets"
   languageName: unknown
   linkType: soft
 
-"@react-native/babel-plugin-codegen@npm:*, @react-native/babel-plugin-codegen@npm:0.74.85":
-  version: 0.74.85
-  resolution: "@react-native/babel-plugin-codegen@npm:0.74.85"
-  dependencies:
-    "@react-native/codegen": "npm:0.74.85"
-  checksum: 10c0/dfef5f036368d822652e68011957acba24a3eb86f17d8c44d0eacdbbe9c9d163ae23280677f9f37dea687cf48077c6a93bcdf01456f74665ff91a5cab4737bc9
+"@react-native/babel-plugin-codegen@link:react-native/packages/babel-plugin-codegen::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/babel-plugin-codegen@link:react-native/packages/babel-plugin-codegen::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native/babel-plugin-codegen@npm:0.74.84":
-  version: 0.74.84
-  resolution: "@react-native/babel-plugin-codegen@npm:0.74.84"
-  dependencies:
-    "@react-native/codegen": "npm:0.74.84"
-  checksum: 10c0/8748bf294afd1a98813c6fecb27ebd74ab272eb6952505d73df6b499d3ee6580a99caf6bf53b6d067df1a8324d36dd62c494368790970406b15a26ea285606ab
-  languageName: node
-  linkType: hard
-
-"@react-native/babel-plugin-codegen@npm:0.75.0-rc.5, @react-native/babel-plugin-codegen@workspace:react-native/packages/babel-plugin-codegen":
+"@react-native/babel-plugin-codegen@workspace:react-native/packages/babel-plugin-codegen":
   version: 0.0.0-use.local
   resolution: "@react-native/babel-plugin-codegen@workspace:react-native/packages/babel-plugin-codegen"
   dependencies:
@@ -6982,163 +7021,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native/babel-preset@npm:*":
-  version: 0.74.85
-  resolution: "@react-native/babel-preset@npm:0.74.85"
-  dependencies:
-    "@babel/core": "npm:^7.20.0"
-    "@babel/plugin-proposal-async-generator-functions": "npm:^7.0.0"
-    "@babel/plugin-proposal-class-properties": "npm:^7.18.0"
-    "@babel/plugin-proposal-export-default-from": "npm:^7.0.0"
-    "@babel/plugin-proposal-logical-assignment-operators": "npm:^7.18.0"
-    "@babel/plugin-proposal-nullish-coalescing-operator": "npm:^7.18.0"
-    "@babel/plugin-proposal-numeric-separator": "npm:^7.0.0"
-    "@babel/plugin-proposal-object-rest-spread": "npm:^7.20.0"
-    "@babel/plugin-proposal-optional-catch-binding": "npm:^7.0.0"
-    "@babel/plugin-proposal-optional-chaining": "npm:^7.20.0"
-    "@babel/plugin-syntax-dynamic-import": "npm:^7.8.0"
-    "@babel/plugin-syntax-export-default-from": "npm:^7.0.0"
-    "@babel/plugin-syntax-flow": "npm:^7.18.0"
-    "@babel/plugin-syntax-nullish-coalescing-operator": "npm:^7.0.0"
-    "@babel/plugin-syntax-optional-chaining": "npm:^7.0.0"
-    "@babel/plugin-transform-arrow-functions": "npm:^7.0.0"
-    "@babel/plugin-transform-async-to-generator": "npm:^7.20.0"
-    "@babel/plugin-transform-block-scoping": "npm:^7.0.0"
-    "@babel/plugin-transform-classes": "npm:^7.0.0"
-    "@babel/plugin-transform-computed-properties": "npm:^7.0.0"
-    "@babel/plugin-transform-destructuring": "npm:^7.20.0"
-    "@babel/plugin-transform-flow-strip-types": "npm:^7.20.0"
-    "@babel/plugin-transform-function-name": "npm:^7.0.0"
-    "@babel/plugin-transform-literals": "npm:^7.0.0"
-    "@babel/plugin-transform-modules-commonjs": "npm:^7.0.0"
-    "@babel/plugin-transform-named-capturing-groups-regex": "npm:^7.0.0"
-    "@babel/plugin-transform-parameters": "npm:^7.0.0"
-    "@babel/plugin-transform-private-methods": "npm:^7.22.5"
-    "@babel/plugin-transform-private-property-in-object": "npm:^7.22.11"
-    "@babel/plugin-transform-react-display-name": "npm:^7.0.0"
-    "@babel/plugin-transform-react-jsx": "npm:^7.0.0"
-    "@babel/plugin-transform-react-jsx-self": "npm:^7.0.0"
-    "@babel/plugin-transform-react-jsx-source": "npm:^7.0.0"
-    "@babel/plugin-transform-runtime": "npm:^7.0.0"
-    "@babel/plugin-transform-shorthand-properties": "npm:^7.0.0"
-    "@babel/plugin-transform-spread": "npm:^7.0.0"
-    "@babel/plugin-transform-sticky-regex": "npm:^7.0.0"
-    "@babel/plugin-transform-typescript": "npm:^7.5.0"
-    "@babel/plugin-transform-unicode-regex": "npm:^7.0.0"
-    "@babel/template": "npm:^7.0.0"
-    "@react-native/babel-plugin-codegen": "npm:0.74.85"
-    babel-plugin-transform-flow-enums: "npm:^0.0.2"
-    react-refresh: "npm:^0.14.0"
-  peerDependencies:
-    "@babel/core": "*"
-  checksum: 10c0/dffab8681ad0ce9f84197e59048005d04f026e47110504870a230d951ea04757e089d1e0cbff3589c945a1748a676a24b6982d4af9b1d36d004c3539a9172a68
+"@react-native/babel-preset@link:react-native/packages/react-native-babel-preset::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/babel-preset@link:react-native/packages/react-native-babel-preset::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native/babel-preset@npm:0.73.16":
-  version: 0.73.16
-  resolution: "@react-native/babel-preset@npm:0.73.16"
-  dependencies:
-    "@babel/core": "npm:^7.20.0"
-    "@babel/plugin-proposal-async-generator-functions": "npm:^7.0.0"
-    "@babel/plugin-proposal-class-properties": "npm:^7.18.0"
-    "@babel/plugin-proposal-export-default-from": "npm:^7.0.0"
-    "@babel/plugin-proposal-nullish-coalescing-operator": "npm:^7.18.0"
-    "@babel/plugin-proposal-numeric-separator": "npm:^7.0.0"
-    "@babel/plugin-proposal-object-rest-spread": "npm:^7.20.0"
-    "@babel/plugin-proposal-optional-catch-binding": "npm:^7.0.0"
-    "@babel/plugin-proposal-optional-chaining": "npm:^7.20.0"
-    "@babel/plugin-syntax-dynamic-import": "npm:^7.8.0"
-    "@babel/plugin-syntax-export-default-from": "npm:^7.0.0"
-    "@babel/plugin-syntax-flow": "npm:^7.18.0"
-    "@babel/plugin-syntax-nullish-coalescing-operator": "npm:^7.0.0"
-    "@babel/plugin-syntax-optional-chaining": "npm:^7.0.0"
-    "@babel/plugin-transform-arrow-functions": "npm:^7.0.0"
-    "@babel/plugin-transform-async-to-generator": "npm:^7.20.0"
-    "@babel/plugin-transform-block-scoping": "npm:^7.0.0"
-    "@babel/plugin-transform-classes": "npm:^7.0.0"
-    "@babel/plugin-transform-computed-properties": "npm:^7.0.0"
-    "@babel/plugin-transform-destructuring": "npm:^7.20.0"
-    "@babel/plugin-transform-flow-strip-types": "npm:^7.20.0"
-    "@babel/plugin-transform-function-name": "npm:^7.0.0"
-    "@babel/plugin-transform-literals": "npm:^7.0.0"
-    "@babel/plugin-transform-modules-commonjs": "npm:^7.0.0"
-    "@babel/plugin-transform-named-capturing-groups-regex": "npm:^7.0.0"
-    "@babel/plugin-transform-parameters": "npm:^7.0.0"
-    "@babel/plugin-transform-react-display-name": "npm:^7.0.0"
-    "@babel/plugin-transform-react-jsx": "npm:^7.0.0"
-    "@babel/plugin-transform-react-jsx-self": "npm:^7.0.0"
-    "@babel/plugin-transform-react-jsx-source": "npm:^7.0.0"
-    "@babel/plugin-transform-runtime": "npm:^7.0.0"
-    "@babel/plugin-transform-shorthand-properties": "npm:^7.0.0"
-    "@babel/plugin-transform-spread": "npm:^7.0.0"
-    "@babel/plugin-transform-sticky-regex": "npm:^7.0.0"
-    "@babel/plugin-transform-typescript": "npm:^7.5.0"
-    "@babel/plugin-transform-unicode-regex": "npm:^7.0.0"
-    "@babel/template": "npm:^7.0.0"
-    "@react-native/babel-plugin-codegen": "npm:*"
-    babel-plugin-transform-flow-enums: "npm:^0.0.2"
-    react-refresh: "npm:^0.4.0"
-  peerDependencies:
-    "@babel/core": "*"
-  checksum: 10c0/1342badf05d4b48c43ea2e9e1bea2c8c14f385a0781437e30ef53ab573f57e5a651739be7086654acdaa0e6c5a7e6739eae46b1d1c844f84211a87501f4b6ccd
-  languageName: node
-  linkType: hard
-
-"@react-native/babel-preset@npm:0.74.84":
-  version: 0.74.84
-  resolution: "@react-native/babel-preset@npm:0.74.84"
-  dependencies:
-    "@babel/core": "npm:^7.20.0"
-    "@babel/plugin-proposal-async-generator-functions": "npm:^7.0.0"
-    "@babel/plugin-proposal-class-properties": "npm:^7.18.0"
-    "@babel/plugin-proposal-export-default-from": "npm:^7.0.0"
-    "@babel/plugin-proposal-logical-assignment-operators": "npm:^7.18.0"
-    "@babel/plugin-proposal-nullish-coalescing-operator": "npm:^7.18.0"
-    "@babel/plugin-proposal-numeric-separator": "npm:^7.0.0"
-    "@babel/plugin-proposal-object-rest-spread": "npm:^7.20.0"
-    "@babel/plugin-proposal-optional-catch-binding": "npm:^7.0.0"
-    "@babel/plugin-proposal-optional-chaining": "npm:^7.20.0"
-    "@babel/plugin-syntax-dynamic-import": "npm:^7.8.0"
-    "@babel/plugin-syntax-export-default-from": "npm:^7.0.0"
-    "@babel/plugin-syntax-flow": "npm:^7.18.0"
-    "@babel/plugin-syntax-nullish-coalescing-operator": "npm:^7.0.0"
-    "@babel/plugin-syntax-optional-chaining": "npm:^7.0.0"
-    "@babel/plugin-transform-arrow-functions": "npm:^7.0.0"
-    "@babel/plugin-transform-async-to-generator": "npm:^7.20.0"
-    "@babel/plugin-transform-block-scoping": "npm:^7.0.0"
-    "@babel/plugin-transform-classes": "npm:^7.0.0"
-    "@babel/plugin-transform-computed-properties": "npm:^7.0.0"
-    "@babel/plugin-transform-destructuring": "npm:^7.20.0"
-    "@babel/plugin-transform-flow-strip-types": "npm:^7.20.0"
-    "@babel/plugin-transform-function-name": "npm:^7.0.0"
-    "@babel/plugin-transform-literals": "npm:^7.0.0"
-    "@babel/plugin-transform-modules-commonjs": "npm:^7.0.0"
-    "@babel/plugin-transform-named-capturing-groups-regex": "npm:^7.0.0"
-    "@babel/plugin-transform-parameters": "npm:^7.0.0"
-    "@babel/plugin-transform-private-methods": "npm:^7.22.5"
-    "@babel/plugin-transform-private-property-in-object": "npm:^7.22.11"
-    "@babel/plugin-transform-react-display-name": "npm:^7.0.0"
-    "@babel/plugin-transform-react-jsx": "npm:^7.0.0"
-    "@babel/plugin-transform-react-jsx-self": "npm:^7.0.0"
-    "@babel/plugin-transform-react-jsx-source": "npm:^7.0.0"
-    "@babel/plugin-transform-runtime": "npm:^7.0.0"
-    "@babel/plugin-transform-shorthand-properties": "npm:^7.0.0"
-    "@babel/plugin-transform-spread": "npm:^7.0.0"
-    "@babel/plugin-transform-sticky-regex": "npm:^7.0.0"
-    "@babel/plugin-transform-typescript": "npm:^7.5.0"
-    "@babel/plugin-transform-unicode-regex": "npm:^7.0.0"
-    "@babel/template": "npm:^7.0.0"
-    "@react-native/babel-plugin-codegen": "npm:0.74.84"
-    babel-plugin-transform-flow-enums: "npm:^0.0.2"
-    react-refresh: "npm:^0.14.0"
-  peerDependencies:
-    "@babel/core": "*"
-  checksum: 10c0/6c4b4009242c5ffba5f2239bf4e48dbbf86aa788954b76a09cd9976f4078ac66e2d0644d8a2b167c8297f7c81cdc5b401f508a685b281f03e7b285d60cedc5a3
-  languageName: node
-  linkType: hard
-
-"@react-native/babel-preset@npm:0.75.0-rc.5, @react-native/babel-preset@workspace:react-native/packages/react-native-babel-preset":
+"@react-native/babel-preset@workspace:react-native/packages/react-native-babel-preset":
   version: 0.0.0-use.local
   resolution: "@react-native/babel-preset@workspace:react-native/packages/react-native-babel-preset"
   dependencies:
@@ -7228,41 +7117,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native/codegen@npm:0.74.84":
-  version: 0.74.84
-  resolution: "@react-native/codegen@npm:0.74.84"
-  dependencies:
-    "@babel/parser": "npm:^7.20.0"
-    glob: "npm:^7.1.1"
-    hermes-parser: "npm:0.19.1"
-    invariant: "npm:^2.2.4"
-    jscodeshift: "npm:^0.14.0"
-    mkdirp: "npm:^0.5.1"
-    nullthrows: "npm:^1.1.1"
-  peerDependencies:
-    "@babel/preset-env": ^7.1.6
-  checksum: 10c0/14842af8cf70b2bf825ab781024b3f8d169b9a267d43f19779a913329e13f5f30a9a72ff594712f0bca5f506a64e7d99016a1e90bba470e1140de778ee23e29b
+"@react-native/codegen@link:react-native/packages/react-native-codegen::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/codegen@link:react-native/packages/react-native-codegen::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native/codegen@npm:0.74.85":
-  version: 0.74.85
-  resolution: "@react-native/codegen@npm:0.74.85"
-  dependencies:
-    "@babel/parser": "npm:^7.20.0"
-    glob: "npm:^7.1.1"
-    hermes-parser: "npm:0.19.1"
-    invariant: "npm:^2.2.4"
-    jscodeshift: "npm:^0.14.0"
-    mkdirp: "npm:^0.5.1"
-    nullthrows: "npm:^1.1.1"
-  peerDependencies:
-    "@babel/preset-env": ^7.1.6
-  checksum: 10c0/caf0d7c3d5647892ba5b5182e3e358e4307024b396351a74bedf37c04e2ecb3a03cf407588c86aa581e5a606710dabff6e26cc1ad691866143102cf30963c74b
-  languageName: node
-  linkType: hard
-
-"@react-native/codegen@npm:0.75.0-rc.5, @react-native/codegen@workspace:react-native/packages/react-native-codegen":
+"@react-native/codegen@workspace:react-native/packages/react-native-codegen":
   version: 0.0.0-use.local
   resolution: "@react-native/codegen@workspace:react-native/packages/react-native-codegen"
   dependencies:
@@ -7294,27 +7155,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native/community-cli-plugin@npm:0.74.84":
-  version: 0.74.84
-  resolution: "@react-native/community-cli-plugin@npm:0.74.84"
-  dependencies:
-    "@react-native-community/cli-server-api": "npm:13.6.8"
-    "@react-native-community/cli-tools": "npm:13.6.8"
-    "@react-native/dev-middleware": "npm:0.74.84"
-    "@react-native/metro-babel-transformer": "npm:0.74.84"
-    chalk: "npm:^4.0.0"
-    execa: "npm:^5.1.1"
-    metro: "npm:^0.80.3"
-    metro-config: "npm:^0.80.3"
-    metro-core: "npm:^0.80.3"
-    node-fetch: "npm:^2.2.0"
-    querystring: "npm:^0.2.1"
-    readline: "npm:^1.3.0"
-  checksum: 10c0/f12f4d687561d27d500a64693f0fe9c0196e1c7a194b2840d81cb6b2bcd3a85d3545d9a752a8cef9ca52c63c1fdebcb089d93cab61f35c17db08213fa9808c8a
+"@react-native/community-cli-plugin@link:react-native/packages/community-cli-plugin::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/community-cli-plugin@link:react-native/packages/community-cli-plugin::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native/community-cli-plugin@npm:0.75.0-rc.5, @react-native/community-cli-plugin@workspace:react-native/packages/community-cli-plugin":
+"@react-native/community-cli-plugin@workspace:react-native/packages/community-cli-plugin":
   version: 0.0.0-use.local
   resolution: "@react-native/community-cli-plugin@workspace:react-native/packages/community-cli-plugin"
   dependencies:
@@ -7334,47 +7181,37 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native/core-cli-utils@npm:0.75.0-rc.5, @react-native/core-cli-utils@workspace:react-native/packages/core-cli-utils":
+"@react-native/core-cli-utils@link:react-native/packages/core-cli-utils::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/core-cli-utils@link:react-native/packages/core-cli-utils::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@react-native/core-cli-utils@workspace:react-native/packages/core-cli-utils":
   version: 0.0.0-use.local
   resolution: "@react-native/core-cli-utils@workspace:react-native/packages/core-cli-utils"
   languageName: unknown
   linkType: soft
 
-"@react-native/debugger-frontend@npm:0.74.84":
-  version: 0.74.84
-  resolution: "@react-native/debugger-frontend@npm:0.74.84"
-  checksum: 10c0/2b5f9a7ec0f884db12aec93bf03e43013fc8dea201f249888a7e6d0ce4b1dd66197fd37fcb7f1bc7d90cf0e9154f786c33ab0a9605986d37ef269d99ea722eca
+"@react-native/debugger-frontend@link:react-native/packages/debugger-frontend::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/debugger-frontend@link:react-native/packages/debugger-frontend::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native/debugger-frontend@npm:0.75.0-rc.5, @react-native/debugger-frontend@workspace:react-native/packages/debugger-frontend":
+"@react-native/debugger-frontend@workspace:react-native/packages/debugger-frontend":
   version: 0.0.0-use.local
   resolution: "@react-native/debugger-frontend@workspace:react-native/packages/debugger-frontend"
   languageName: unknown
   linkType: soft
 
-"@react-native/dev-middleware@npm:0.74.84":
-  version: 0.74.84
-  resolution: "@react-native/dev-middleware@npm:0.74.84"
-  dependencies:
-    "@isaacs/ttlcache": "npm:^1.4.1"
-    "@react-native/debugger-frontend": "npm:0.74.84"
-    "@rnx-kit/chromium-edge-launcher": "npm:^1.0.0"
-    chrome-launcher: "npm:^0.15.2"
-    connect: "npm:^3.6.5"
-    debug: "npm:^2.2.0"
-    node-fetch: "npm:^2.2.0"
-    nullthrows: "npm:^1.1.1"
-    open: "npm:^7.0.3"
-    selfsigned: "npm:^2.4.1"
-    serve-static: "npm:^1.13.1"
-    temp-dir: "npm:^2.0.0"
-    ws: "npm:^6.2.2"
-  checksum: 10c0/1896106d324d63bf3116a5f4d07b9e59e6af58b7c7002213ca8ef3ee4ea521e7208df38fbf724ad9aa2b29fb0d9ae3fa3cb994b6e79ec318ad424ad677ed88fe
+"@react-native/dev-middleware@link:react-native/packages/dev-middleware::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/dev-middleware@link:react-native/packages/dev-middleware::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native/dev-middleware@npm:0.75.0-rc.5, @react-native/dev-middleware@workspace:react-native/packages/dev-middleware":
+"@react-native/dev-middleware@workspace:react-native/packages/dev-middleware":
   version: 0.0.0-use.local
   resolution: "@react-native/dev-middleware@workspace:react-native/packages/dev-middleware"
   dependencies:
@@ -7396,7 +7233,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native/eslint-config@npm:0.75.0-rc.5, @react-native/eslint-config@workspace:react-native/packages/eslint-config-react-native":
+"@react-native/eslint-config@link:react-native/packages/eslint-config-react-native::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/eslint-config@link:react-native/packages/eslint-config-react-native::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@react-native/eslint-config@workspace:react-native/packages/eslint-config-react-native":
   version: 0.0.0-use.local
   resolution: "@react-native/eslint-config@workspace:react-native/packages/eslint-config-react-native"
   dependencies:
@@ -7435,7 +7278,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native/eslint-plugin@npm:0.75.0-rc.5, @react-native/eslint-plugin@workspace:react-native/packages/eslint-plugin-react-native":
+"@react-native/eslint-plugin@link:react-native/packages/eslint-plugin-react-native::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/eslint-plugin@link:react-native/packages/eslint-plugin-react-native::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@react-native/eslint-plugin@workspace:react-native/packages/eslint-plugin-react-native":
   version: 0.0.0-use.local
   resolution: "@react-native/eslint-plugin@workspace:react-native/packages/eslint-plugin-react-native"
   languageName: unknown
@@ -7449,14 +7298,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native/gradle-plugin@npm:0.74.84":
-  version: 0.74.84
-  resolution: "@react-native/gradle-plugin@npm:0.74.84"
-  checksum: 10c0/865fb70e02aae16e888fc99f3ea4c3d7eaade53a659cb670a09dd64154d171bad546e99e7693b2a79af22abc24621b8486acad48b5d3499d925ececc280d5020
+"@react-native/gradle-plugin@link:react-native/packages/gradle-plugin::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/gradle-plugin@link:react-native/packages/gradle-plugin::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native/gradle-plugin@npm:0.75.0-rc.5, @react-native/gradle-plugin@workspace:react-native/packages/react-native-gradle-plugin":
+"@react-native/gradle-plugin@workspace:react-native/packages/react-native-gradle-plugin":
   version: 0.0.0-use.local
   resolution: "@react-native/gradle-plugin@workspace:react-native/packages/react-native-gradle-plugin"
   languageName: unknown
@@ -7478,49 +7326,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native/js-polyfills@npm:0.74.84":
-  version: 0.74.84
-  resolution: "@react-native/js-polyfills@npm:0.74.84"
-  checksum: 10c0/83dc88bd2897ebb377fb05b4dbe9779eb57b140e694849ee96462fbd024c40a4d864dccb18d6644851bf310c573e9366eaa44bdbfe7253316771fb9f61cbf89b
+"@react-native/js-polyfills@link:react-native/packages/polyfills::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/js-polyfills@link:react-native/packages/polyfills::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native/js-polyfills@npm:0.75.0-rc.5, @react-native/js-polyfills@workspace:react-native/packages/polyfills":
+"@react-native/js-polyfills@workspace:react-native/packages/polyfills":
   version: 0.0.0-use.local
   resolution: "@react-native/js-polyfills@workspace:react-native/packages/polyfills"
   languageName: unknown
   linkType: soft
 
-"@react-native/metro-babel-transformer@npm:0.73.11":
-  version: 0.73.11
-  resolution: "@react-native/metro-babel-transformer@npm:0.73.11"
-  dependencies:
-    "@babel/core": "npm:^7.20.0"
-    "@react-native/babel-preset": "npm:*"
-    babel-preset-fbjs: "npm:^3.4.0"
-    hermes-parser: "npm:0.15.0"
-    nullthrows: "npm:^1.1.1"
-  peerDependencies:
-    "@babel/core": "*"
-  checksum: 10c0/5d04907e2878f029456d704f911487e1e031d019e07758257c440dfa1e6e10eab6d9794ec4806578b5f06e125147750b53f6262654209591ca0dc6276a5685ba
+"@react-native/metro-babel-transformer@link:react-native/packages/react-native-babel-transformer::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/metro-babel-transformer@link:react-native/packages/react-native-babel-transformer::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native/metro-babel-transformer@npm:0.74.84":
-  version: 0.74.84
-  resolution: "@react-native/metro-babel-transformer@npm:0.74.84"
-  dependencies:
-    "@babel/core": "npm:^7.20.0"
-    "@react-native/babel-preset": "npm:0.74.84"
-    hermes-parser: "npm:0.19.1"
-    nullthrows: "npm:^1.1.1"
-  peerDependencies:
-    "@babel/core": "*"
-  checksum: 10c0/321510680c14d2cab86889feee0ba0c6374a5805031fd52c5bdbc69c6f7451e733715ffe9fc4e08d1fab02f9b4caf705be5c53954f89164eb881c9f490b20f18
-  languageName: node
-  linkType: hard
-
-"@react-native/metro-babel-transformer@npm:0.75.0-rc.5, @react-native/metro-babel-transformer@workspace:react-native/packages/react-native-babel-transformer":
+"@react-native/metro-babel-transformer@workspace:react-native/packages/react-native-babel-transformer":
   version: 0.0.0-use.local
   resolution: "@react-native/metro-babel-transformer@workspace:react-native/packages/react-native-babel-transformer"
   dependencies:
@@ -7533,7 +7357,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native/metro-config@npm:0.75.0-rc.5, @react-native/metro-config@workspace:react-native/packages/metro-config":
+"@react-native/metro-config@link:react-native/packages/metro-config::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/metro-config@link:react-native/packages/metro-config::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@react-native/metro-config@workspace:react-native/packages/metro-config":
   version: 0.0.0-use.local
   resolution: "@react-native/metro-config@workspace:react-native/packages/metro-config"
   dependencies:
@@ -7612,25 +7442,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native/normalize-colors@npm:0.74.84":
-  version: 0.74.84
-  resolution: "@react-native/normalize-colors@npm:0.74.84"
-  checksum: 10c0/9046b848db5ba0001cb4817faebba18366c5fc7c86a72836685867868e0019d40477d0dd6a7cdddf305a2156b5bda0b569116d2446d873e6e0d79c3c85a6517e
+"@react-native/normalize-colors@link:react-native/packages/normalize-color::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/normalize-colors@link:react-native/packages/normalize-color::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native/normalize-colors@npm:0.75.0-rc.5, @react-native/normalize-colors@workspace:react-native/packages/normalize-color":
+"@react-native/normalize-colors@workspace:react-native/packages/normalize-color":
   version: 0.0.0-use.local
   resolution: "@react-native/normalize-colors@workspace:react-native/packages/normalize-color"
   languageName: unknown
   linkType: soft
-
-"@react-native/normalize-colors@npm:^0.74.1":
-  version: 0.74.85
-  resolution: "@react-native/normalize-colors@npm:0.74.85"
-  checksum: 10c0/44fbb2e78ed4656b78b32aa41b79e2e8b6264e1577b892a6f81205a7991490aad62ae96b3900d6f6e1609ffd5bab7ed1760aa814f119a90c05d13ab80942fda7
-  languageName: node
-  linkType: hard
 
 "@react-native/oss-library-example@npm:0.75.0-rc.5, @react-native/oss-library-example@workspace:react-native/packages/react-native-test-library":
   version: 0.0.0-use.local
@@ -7645,7 +7467,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native/popup-menu-android@npm:0.75.0-rc.5, @react-native/popup-menu-android@workspace:react-native/packages/react-native-popup-menu-android":
+"@react-native/popup-menu-android@link:react-native/packages/react-native-popup-menu-android::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/popup-menu-android@link:react-native/packages/react-native-popup-menu-android::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@react-native/popup-menu-android@workspace:react-native/packages/react-native-popup-menu-android":
   version: 0.0.0-use.local
   resolution: "@react-native/popup-menu-android@workspace:react-native/packages/react-native-popup-menu-android"
   dependencies:
@@ -7709,24 +7537,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native/virtualized-lists@npm:0.74.84":
-  version: 0.74.84
-  resolution: "@react-native/virtualized-lists@npm:0.74.84"
-  dependencies:
-    invariant: "npm:^2.2.4"
-    nullthrows: "npm:^1.1.1"
-  peerDependencies:
-    "@types/react": ^18.2.6
-    react: "*"
-    react-native: "*"
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  checksum: 10c0/56fe17ce7535efd5626bbf18cde6e1ec4a197e562c21e1b191b2a721d510ad46120c0cc313ac06d24c34de2f33e640951213ff2d405ed857808c56385c7fc752
+"@react-native/virtualized-lists@link:react-native/packages/virtualized-lists::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native/virtualized-lists@link:react-native/packages/virtualized-lists::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native/virtualized-lists@npm:0.75.0-rc.5, @react-native/virtualized-lists@workspace:react-native/packages/virtualized-lists":
+"@react-native/virtualized-lists@workspace:react-native/packages/virtualized-lists":
   version: 0.0.0-use.local
   resolution: "@react-native/virtualized-lists@workspace:react-native/packages/virtualized-lists"
   dependencies:
@@ -8109,20 +7926,6 @@ __metadata:
   version: 3.0.6
   resolution: "@repeaterjs/repeater@npm:3.0.6"
   checksum: 10c0/c3915e2603927c7d6a9eb09673bc28fc49ab3a86947ec191a74663b33deebee2fcc4b03c31cc663ff27bd6db9e6c9487639b6935e265d601ce71b8c497f5f4a8
-  languageName: node
-  linkType: hard
-
-"@rnx-kit/chromium-edge-launcher@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@rnx-kit/chromium-edge-launcher@npm:1.0.0"
-  dependencies:
-    "@types/node": "npm:^18.0.0"
-    escape-string-regexp: "npm:^4.0.0"
-    is-wsl: "npm:^2.2.0"
-    lighthouse-logger: "npm:^1.0.0"
-    mkdirp: "npm:^1.0.4"
-    rimraf: "npm:^3.0.2"
-  checksum: 10c0/21182379a914ad244b556e794eb6bc6dc63a099cbd2f3eb315a13bd431dc6f24ca096ffb465ad76465144d02969f538a93ef7ef1b2280135174fdae4db5206b3
   languageName: node
   linkType: hard
 
@@ -12195,7 +11998,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-expo@npm:~11.0.0, babel-preset-expo@npm:~11.0.6, babel-preset-expo@workspace:expo/packages/babel-preset-expo":
+"babel-preset-expo@link:expo/packages/babel-preset-expo::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "babel-preset-expo@link:expo/packages/babel-preset-expo::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"babel-preset-expo@workspace:expo/packages/babel-preset-expo":
   version: 0.0.0-use.local
   resolution: "babel-preset-expo@workspace:expo/packages/babel-preset-expo"
   dependencies:
@@ -16300,7 +16109,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-universe@npm:^13.0.0, eslint-config-universe@workspace:expo/packages/eslint-config-universe":
+"eslint-config-universe@link:expo/packages/eslint-config-universe::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "eslint-config-universe@link:expo/packages/eslint-config-universe::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"eslint-config-universe@workspace:expo/packages/eslint-config-universe":
   version: 0.0.0-use.local
   resolution: "eslint-config-universe@workspace:expo/packages/eslint-config-universe"
   dependencies:
@@ -16438,7 +16253,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-expo@npm:^0.0.1, eslint-plugin-expo@workspace:expo/packages/eslint-plugin-expo":
+"eslint-plugin-expo@link:expo/packages/eslint-plugin-expo::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "eslint-plugin-expo@link:expo/packages/eslint-plugin-expo::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"eslint-plugin-expo@workspace:expo/packages/eslint-plugin-expo":
   version: 0.0.0-use.local
   resolution: "eslint-plugin-expo@workspace:expo/packages/eslint-plugin-expo"
   dependencies:
@@ -17211,7 +17032,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-apple-authentication@npm:~6.4.0, expo-apple-authentication@workspace:expo/packages/expo-apple-authentication":
+"expo-apple-authentication@link:expo/packages/expo-apple-authentication::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-apple-authentication@link:expo/packages/expo-apple-authentication::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-apple-authentication@workspace:expo/packages/expo-apple-authentication":
   version: 0.0.0-use.local
   resolution: "expo-apple-authentication@workspace:expo/packages/expo-apple-authentication"
   dependencies:
@@ -17221,7 +17048,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-application@npm:^5.0.0, expo-application@npm:~5.9.0, expo-application@workspace:expo/packages/expo-application":
+"expo-application@link:expo/packages/expo-application::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-application@link:expo/packages/expo-application::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-application@workspace:expo/packages/expo-application":
   version: 0.0.0-use.local
   resolution: "expo-application@workspace:expo/packages/expo-application"
   dependencies:
@@ -17244,7 +17077,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-asset@npm:^10.0.0, expo-asset@npm:~10.0.0, expo-asset@npm:~10.0.6, expo-asset@workspace:expo/packages/expo-asset":
+"expo-asset@link:expo/packages/expo-asset::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-asset@link:expo/packages/expo-asset::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-asset@workspace:expo/packages/expo-asset":
   version: 0.0.0-use.local
   resolution: "expo-asset@workspace:expo/packages/expo-asset"
   dependencies:
@@ -17282,7 +17121,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-audio@npm:0.1.0, expo-audio@workspace:expo/packages/expo-audio":
+"expo-audio@link:expo/packages/expo-audio::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-audio@link:expo/packages/expo-audio::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-audio@workspace:expo/packages/expo-audio":
   version: 0.0.0-use.local
   resolution: "expo-audio@workspace:expo/packages/expo-audio"
   dependencies:
@@ -17292,7 +17137,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-auth-session@npm:~5.5.0, expo-auth-session@workspace:expo/packages/expo-auth-session":
+"expo-auth-session@link:expo/packages/expo-auth-session::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-auth-session@link:expo/packages/expo-auth-session::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-auth-session@workspace:expo/packages/expo-auth-session":
   version: 0.0.0-use.local
   resolution: "expo-auth-session@workspace:expo/packages/expo-auth-session"
   dependencies:
@@ -17306,7 +17157,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-av@npm:~14.0.0, expo-av@workspace:expo/packages/expo-av":
+"expo-av@link:expo/packages/expo-av::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-av@link:expo/packages/expo-av::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-av@workspace:expo/packages/expo-av":
   version: 0.0.0-use.local
   resolution: "expo-av@workspace:expo/packages/expo-av"
   dependencies:
@@ -17316,7 +17173,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-background-fetch@npm:~12.0.0, expo-background-fetch@workspace:expo/packages/expo-background-fetch":
+"expo-background-fetch@link:expo/packages/expo-background-fetch::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-background-fetch@link:expo/packages/expo-background-fetch::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-background-fetch@workspace:expo/packages/expo-background-fetch":
   version: 0.0.0-use.local
   resolution: "expo-background-fetch@workspace:expo/packages/expo-background-fetch"
   dependencies:
@@ -17327,7 +17190,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-barcode-scanner@npm:~13.0.0, expo-barcode-scanner@workspace:expo/packages/expo-barcode-scanner":
+"expo-barcode-scanner@link:expo/packages/expo-barcode-scanner::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-barcode-scanner@link:expo/packages/expo-barcode-scanner::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-barcode-scanner@workspace:expo/packages/expo-barcode-scanner":
   version: 0.0.0-use.local
   resolution: "expo-barcode-scanner@workspace:expo/packages/expo-barcode-scanner"
   dependencies:
@@ -17338,7 +17207,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-battery@npm:~8.0.0, expo-battery@workspace:expo/packages/expo-battery":
+"expo-battery@link:expo/packages/expo-battery::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-battery@link:expo/packages/expo-battery::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-battery@workspace:expo/packages/expo-battery":
   version: 0.0.0-use.local
   resolution: "expo-battery@workspace:expo/packages/expo-battery"
   dependencies:
@@ -17348,7 +17223,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-blur@npm:~13.0.0, expo-blur@workspace:expo/packages/expo-blur":
+"expo-blur@link:expo/packages/expo-blur::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-blur@link:expo/packages/expo-blur::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-blur@workspace:expo/packages/expo-blur":
   version: 0.0.0-use.local
   resolution: "expo-blur@workspace:expo/packages/expo-blur"
   dependencies:
@@ -17361,7 +17242,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-brightness@npm:~12.0.0, expo-brightness@workspace:expo/packages/expo-brightness":
+"expo-brightness@link:expo/packages/expo-brightness::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-brightness@link:expo/packages/expo-brightness::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-brightness@workspace:expo/packages/expo-brightness":
   version: 0.0.0-use.local
   resolution: "expo-brightness@workspace:expo/packages/expo-brightness"
   dependencies:
@@ -17383,7 +17270,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-calendar@npm:~13.0.0, expo-calendar@workspace:expo/packages/expo-calendar":
+"expo-calendar@link:expo/packages/expo-calendar::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-calendar@link:expo/packages/expo-calendar::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-calendar@workspace:expo/packages/expo-calendar":
   version: 0.0.0-use.local
   resolution: "expo-calendar@workspace:expo/packages/expo-calendar"
   dependencies:
@@ -17393,7 +17286,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-camera@npm:~15.0.0, expo-camera@workspace:expo/packages/expo-camera":
+"expo-camera@link:expo/packages/expo-camera::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-camera@link:expo/packages/expo-camera::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-camera@workspace:expo/packages/expo-camera":
   version: 0.0.0-use.local
   resolution: "expo-camera@workspace:expo/packages/expo-camera"
   dependencies:
@@ -17404,7 +17303,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-cellular@npm:~6.0.0, expo-cellular@workspace:expo/packages/expo-cellular":
+"expo-cellular@link:expo/packages/expo-cellular::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-cellular@link:expo/packages/expo-cellular::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-cellular@workspace:expo/packages/expo-cellular":
   version: 0.0.0-use.local
   resolution: "expo-cellular@workspace:expo/packages/expo-cellular"
   dependencies:
@@ -17414,7 +17319,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-checkbox@npm:~3.0.0, expo-checkbox@workspace:expo/packages/expo-checkbox":
+"expo-checkbox@link:expo/packages/expo-checkbox::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-checkbox@link:expo/packages/expo-checkbox::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-checkbox@workspace:expo/packages/expo-checkbox":
   version: 0.0.0-use.local
   resolution: "expo-checkbox@workspace:expo/packages/expo-checkbox"
   dependencies:
@@ -17425,7 +17336,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-clipboard@npm:~6.0.0, expo-clipboard@workspace:expo/packages/expo-clipboard":
+"expo-clipboard@link:expo/packages/expo-clipboard::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-clipboard@link:expo/packages/expo-clipboard::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-clipboard@workspace:expo/packages/expo-clipboard":
   version: 0.0.0-use.local
   resolution: "expo-clipboard@workspace:expo/packages/expo-clipboard"
   dependencies:
@@ -17435,7 +17352,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-constants@npm:~16.0.0, expo-constants@workspace:expo/packages/expo-constants":
+"expo-constants@link:expo/packages/expo-constants::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-constants@link:expo/packages/expo-constants::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-constants@workspace:expo/packages/expo-constants":
   version: 0.0.0-use.local
   resolution: "expo-constants@workspace:expo/packages/expo-constants"
   dependencies:
@@ -17447,7 +17370,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-contacts@npm:~13.0.0, expo-contacts@workspace:expo/packages/expo-contacts":
+"expo-contacts@link:expo/packages/expo-contacts::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-contacts@link:expo/packages/expo-contacts::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-contacts@workspace:expo/packages/expo-contacts":
   version: 0.0.0-use.local
   resolution: "expo-contacts@workspace:expo/packages/expo-contacts"
   dependencies:
@@ -17457,7 +17386,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-crypto@npm:^13.0.0, expo-crypto@npm:~13.0.0, expo-crypto@workspace:expo/packages/expo-crypto":
+"expo-crypto@link:expo/packages/expo-crypto::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-crypto@link:expo/packages/expo-crypto::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-crypto@workspace:expo/packages/expo-crypto":
   version: 0.0.0-use.local
   resolution: "expo-crypto@workspace:expo/packages/expo-crypto"
   dependencies:
@@ -17468,7 +17403,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-dev-client-components@npm:1.8.1, expo-dev-client-components@workspace:expo/packages/expo-dev-client-components":
+"expo-dev-client-components@link:expo/packages/expo-dev-client-components::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-dev-client-components@link:expo/packages/expo-dev-client-components::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-dev-client-components@workspace:expo/packages/expo-dev-client-components":
   version: 0.0.0-use.local
   resolution: "expo-dev-client-components@workspace:expo/packages/expo-dev-client-components"
   dependencies:
@@ -17478,7 +17419,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-dev-client@npm:~4.0.0, expo-dev-client@workspace:expo/packages/expo-dev-client":
+"expo-dev-client@link:expo/packages/expo-dev-client::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-dev-client@link:expo/packages/expo-dev-client::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-dev-client@workspace:expo/packages/expo-dev-client":
   version: 0.0.0-use.local
   resolution: "expo-dev-client@workspace:expo/packages/expo-dev-client"
   dependencies:
@@ -17494,7 +17441,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-dev-launcher@npm:4.0.15, expo-dev-launcher@workspace:expo/packages/expo-dev-launcher":
+"expo-dev-launcher@link:expo/packages/expo-dev-launcher::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-dev-launcher@link:expo/packages/expo-dev-launcher::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-dev-launcher@workspace:expo/packages/expo-dev-launcher":
   version: 0.0.0-use.local
   resolution: "expo-dev-launcher@workspace:expo/packages/expo-dev-launcher"
   dependencies:
@@ -17526,7 +17479,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-dev-menu-interface@npm:1.8.3, expo-dev-menu-interface@workspace:expo/packages/expo-dev-menu-interface":
+"expo-dev-menu-interface@link:expo/packages/expo-dev-menu-interface::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-dev-menu-interface@link:expo/packages/expo-dev-menu-interface::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-dev-menu-interface@workspace:expo/packages/expo-dev-menu-interface":
   version: 0.0.0-use.local
   resolution: "expo-dev-menu-interface@workspace:expo/packages/expo-dev-menu-interface"
   peerDependencies:
@@ -17534,7 +17493,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-dev-menu@npm:5.0.14, expo-dev-menu@workspace:expo/packages/expo-dev-menu":
+"expo-dev-menu@link:expo/packages/expo-dev-menu::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-dev-menu@link:expo/packages/expo-dev-menu::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-dev-menu@workspace:expo/packages/expo-dev-menu":
   version: 0.0.0-use.local
   resolution: "expo-dev-menu@workspace:expo/packages/expo-dev-menu"
   dependencies:
@@ -17560,7 +17525,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-device@npm:~6.0.0, expo-device@workspace:expo/packages/expo-device":
+"expo-device@link:expo/packages/expo-device::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-device@link:expo/packages/expo-device::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-device@workspace:expo/packages/expo-device":
   version: 0.0.0-use.local
   resolution: "expo-device@workspace:expo/packages/expo-device"
   dependencies:
@@ -17591,7 +17562,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-document-picker@npm:~12.0.0, expo-document-picker@workspace:expo/packages/expo-document-picker":
+"expo-document-picker@link:expo/packages/expo-document-picker::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-document-picker@link:expo/packages/expo-document-picker::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-document-picker@workspace:expo/packages/expo-document-picker":
   version: 0.0.0-use.local
   resolution: "expo-document-picker@workspace:expo/packages/expo-document-picker"
   dependencies:
@@ -17601,7 +17578,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-eas-client@npm:~0.12.0, expo-eas-client@workspace:expo/packages/expo-eas-client":
+"expo-eas-client@link:expo/packages/expo-eas-client::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-eas-client@link:expo/packages/expo-eas-client::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-eas-client@workspace:expo/packages/expo-eas-client":
   version: 0.0.0-use.local
   resolution: "expo-eas-client@workspace:expo/packages/expo-eas-client"
   dependencies:
@@ -17621,7 +17604,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-face-detector@npm:~12.7.0, expo-face-detector@workspace:expo/packages/expo-face-detector":
+"expo-face-detector@link:expo/packages/expo-face-detector::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-face-detector@link:expo/packages/expo-face-detector::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-face-detector@workspace:expo/packages/expo-face-detector":
   version: 0.0.0-use.local
   resolution: "expo-face-detector@workspace:expo/packages/expo-face-detector"
   dependencies:
@@ -17631,7 +17620,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-file-system@npm:~17.0.0, expo-file-system@npm:~17.0.1, expo-file-system@workspace:expo/packages/expo-file-system":
+"expo-file-system@link:expo/packages/expo-file-system::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-file-system@link:expo/packages/expo-file-system::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-file-system@workspace:expo/packages/expo-file-system":
   version: 0.0.0-use.local
   resolution: "expo-file-system@workspace:expo/packages/expo-file-system"
   dependencies:
@@ -17642,7 +17637,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-font@npm:~12.0.0, expo-font@npm:~12.0.5, expo-font@workspace:expo/packages/expo-font":
+"expo-font@link:expo/packages/expo-font::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-font@link:expo/packages/expo-font::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-font@workspace:expo/packages/expo-font":
   version: 0.0.0-use.local
   resolution: "expo-font@workspace:expo/packages/expo-font"
   dependencies:
@@ -17653,7 +17654,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-gl@npm:14.0.2, expo-gl@npm:~14.0.0, expo-gl@workspace:expo/packages/expo-gl":
+"expo-gl@link:expo/packages/expo-gl::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-gl@link:expo/packages/expo-gl::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-gl@workspace:expo/packages/expo-gl":
   version: 0.0.0-use.local
   resolution: "expo-gl@workspace:expo/packages/expo-gl"
   dependencies:
@@ -17668,7 +17675,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-haptics@npm:~13.0.0, expo-haptics@workspace:expo/packages/expo-haptics":
+"expo-haptics@link:expo/packages/expo-haptics::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-haptics@link:expo/packages/expo-haptics::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-haptics@workspace:expo/packages/expo-haptics":
   version: 0.0.0-use.local
   resolution: "expo-haptics@workspace:expo/packages/expo-haptics"
   dependencies:
@@ -17678,7 +17691,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-image-loader@npm:^4.0.0, expo-image-loader@npm:~4.7.0, expo-image-loader@workspace:expo/packages/expo-image-loader":
+"expo-image-loader@link:expo/packages/expo-image-loader::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-image-loader@link:expo/packages/expo-image-loader::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-image-loader@workspace:expo/packages/expo-image-loader":
   version: 0.0.0-use.local
   resolution: "expo-image-loader@workspace:expo/packages/expo-image-loader"
   peerDependencies:
@@ -17686,7 +17705,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-image-manipulator@npm:~12.0.0, expo-image-manipulator@workspace:expo/packages/expo-image-manipulator":
+"expo-image-manipulator@link:expo/packages/expo-image-manipulator::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-image-manipulator@link:expo/packages/expo-image-manipulator::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-image-manipulator@workspace:expo/packages/expo-image-manipulator":
   version: 0.0.0-use.local
   resolution: "expo-image-manipulator@workspace:expo/packages/expo-image-manipulator"
   dependencies:
@@ -17697,7 +17722,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-image-picker@npm:~15.0.0, expo-image-picker@workspace:expo/packages/expo-image-picker":
+"expo-image-picker@link:expo/packages/expo-image-picker::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-image-picker@link:expo/packages/expo-image-picker::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-image-picker@workspace:expo/packages/expo-image-picker":
   version: 0.0.0-use.local
   resolution: "expo-image-picker@workspace:expo/packages/expo-image-picker"
   dependencies:
@@ -17708,7 +17739,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-image@npm:^1.0.0-alpha.4, expo-image@npm:~1.12.0, expo-image@workspace:expo/packages/expo-image":
+"expo-image@link:expo/packages/expo-image::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-image@link:expo/packages/expo-image::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-image@workspace:expo/packages/expo-image":
   version: 0.0.0-use.local
   resolution: "expo-image@workspace:expo/packages/expo-image"
   dependencies:
@@ -17718,7 +17755,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-insights@npm:~0.7.0, expo-insights@workspace:expo/packages/expo-insights":
+"expo-insights@link:expo/packages/expo-insights::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-insights@link:expo/packages/expo-insights::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-insights@workspace:expo/packages/expo-insights":
   version: 0.0.0-use.local
   resolution: "expo-insights@workspace:expo/packages/expo-insights"
   dependencies:
@@ -17729,7 +17772,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-intent-launcher@npm:~11.0.0, expo-intent-launcher@workspace:expo/packages/expo-intent-launcher":
+"expo-intent-launcher@link:expo/packages/expo-intent-launcher::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-intent-launcher@link:expo/packages/expo-intent-launcher::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-intent-launcher@workspace:expo/packages/expo-intent-launcher":
   version: 0.0.0-use.local
   resolution: "expo-intent-launcher@workspace:expo/packages/expo-intent-launcher"
   dependencies:
@@ -17739,13 +17788,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-json-utils@npm:~0.13.0, expo-json-utils@workspace:expo/packages/expo-json-utils":
+"expo-json-utils@link:expo/packages/expo-json-utils::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-json-utils@link:expo/packages/expo-json-utils::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-json-utils@workspace:expo/packages/expo-json-utils":
   version: 0.0.0-use.local
   resolution: "expo-json-utils@workspace:expo/packages/expo-json-utils"
   languageName: unknown
   linkType: soft
 
-"expo-keep-awake@npm:~13.0.0, expo-keep-awake@npm:~13.0.2, expo-keep-awake@workspace:expo/packages/expo-keep-awake":
+"expo-keep-awake@link:expo/packages/expo-keep-awake::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-keep-awake@link:expo/packages/expo-keep-awake::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-keep-awake@workspace:expo/packages/expo-keep-awake":
   version: 0.0.0-use.local
   resolution: "expo-keep-awake@workspace:expo/packages/expo-keep-awake"
   dependencies:
@@ -17756,7 +17817,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-linear-gradient@npm:~13.0.0, expo-linear-gradient@workspace:expo/packages/expo-linear-gradient":
+"expo-linear-gradient@link:expo/packages/expo-linear-gradient::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-linear-gradient@link:expo/packages/expo-linear-gradient::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-linear-gradient@workspace:expo/packages/expo-linear-gradient":
   version: 0.0.0-use.local
   resolution: "expo-linear-gradient@workspace:expo/packages/expo-linear-gradient"
   dependencies:
@@ -17769,7 +17836,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-linking@npm:^6.0.0, expo-linking@npm:~6.3.0, expo-linking@workspace:expo/packages/expo-linking":
+"expo-linking@link:expo/packages/expo-linking::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-linking@link:expo/packages/expo-linking::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-linking@workspace:expo/packages/expo-linking":
   version: 0.0.0-use.local
   resolution: "expo-linking@workspace:expo/packages/expo-linking"
   dependencies:
@@ -17779,7 +17852,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-local-authentication@npm:~14.0.0, expo-local-authentication@workspace:expo/packages/expo-local-authentication":
+"expo-local-authentication@link:expo/packages/expo-local-authentication::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-local-authentication@link:expo/packages/expo-local-authentication::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-local-authentication@workspace:expo/packages/expo-local-authentication":
   version: 0.0.0-use.local
   resolution: "expo-local-authentication@workspace:expo/packages/expo-local-authentication"
   dependencies:
@@ -17790,7 +17869,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-localization@npm:~15.0.0, expo-localization@workspace:expo/packages/expo-localization":
+"expo-localization@link:expo/packages/expo-localization::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-localization@link:expo/packages/expo-localization::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-localization@workspace:expo/packages/expo-localization":
   version: 0.0.0-use.local
   resolution: "expo-localization@workspace:expo/packages/expo-localization"
   dependencies:
@@ -17801,7 +17886,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-location@npm:~17.0.0, expo-location@workspace:expo/packages/expo-location":
+"expo-location@link:expo/packages/expo-location::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-location@link:expo/packages/expo-location::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-location@workspace:expo/packages/expo-location":
   version: 0.0.0-use.local
   resolution: "expo-location@workspace:expo/packages/expo-location"
   dependencies:
@@ -17811,7 +17902,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-mail-composer@npm:~13.0.0, expo-mail-composer@workspace:expo/packages/expo-mail-composer":
+"expo-mail-composer@link:expo/packages/expo-mail-composer::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-mail-composer@link:expo/packages/expo-mail-composer::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-mail-composer@workspace:expo/packages/expo-mail-composer":
   version: 0.0.0-use.local
   resolution: "expo-mail-composer@workspace:expo/packages/expo-mail-composer"
   dependencies:
@@ -17821,7 +17918,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-manifests@npm:~0.14.0, expo-manifests@workspace:expo/packages/expo-manifests":
+"expo-manifests@link:expo/packages/expo-manifests::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-manifests@link:expo/packages/expo-manifests::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-manifests@workspace:expo/packages/expo-manifests":
   version: 0.0.0-use.local
   resolution: "expo-manifests@workspace:expo/packages/expo-manifests"
   dependencies:
@@ -17833,7 +17936,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-maps@npm:0.4.0, expo-maps@workspace:expo/packages/expo-maps":
+"expo-maps@link:expo/packages/expo-maps::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-maps@link:expo/packages/expo-maps::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-maps@workspace:expo/packages/expo-maps":
   version: 0.0.0-use.local
   resolution: "expo-maps@workspace:expo/packages/expo-maps"
   dependencies:
@@ -17844,7 +17953,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-media-library@npm:~16.0.0, expo-media-library@workspace:expo/packages/expo-media-library":
+"expo-media-library@link:expo/packages/expo-media-library::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-media-library@link:expo/packages/expo-media-library::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-media-library@workspace:expo/packages/expo-media-library":
   version: 0.0.0-use.local
   resolution: "expo-media-library@workspace:expo/packages/expo-media-library"
   dependencies:
@@ -17854,7 +17969,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-module-scripts@npm:^3.0.0, expo-module-scripts@npm:^3.0.4, expo-module-scripts@npm:^3.3.0, expo-module-scripts@npm:^3.4.0, expo-module-scripts@npm:^3.4.1, expo-module-scripts@npm:^3.5.1, expo-module-scripts@npm:~3.5.0, expo-module-scripts@workspace:expo/packages/expo-module-scripts":
+"expo-module-scripts@link:expo/packages/expo-module-scripts::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-module-scripts@link:expo/packages/expo-module-scripts::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-module-scripts@workspace:expo/packages/expo-module-scripts":
   version: 0.0.0-use.local
   resolution: "expo-module-scripts@workspace:expo/packages/expo-module-scripts"
   dependencies:
@@ -17894,7 +18015,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-modules-autolinking@npm:1.11.1, expo-modules-autolinking@workspace:expo/packages/expo-modules-autolinking":
+"expo-modules-autolinking@link:expo/packages/expo-modules-autolinking::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-modules-autolinking@link:expo/packages/expo-modules-autolinking::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-modules-autolinking@workspace:expo/packages/expo-modules-autolinking":
   version: 0.0.0-use.local
   resolution: "expo-modules-autolinking@workspace:expo/packages/expo-modules-autolinking"
   dependencies:
@@ -17915,7 +18042,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-modules-core@npm:1.12.11, expo-modules-core@workspace:expo/packages/expo-modules-core":
+"expo-modules-core@link:expo/packages/expo-modules-core::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-modules-core@link:expo/packages/expo-modules-core::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-modules-core@workspace:expo/packages/expo-modules-core":
   version: 0.0.0-use.local
   resolution: "expo-modules-core@workspace:expo/packages/expo-modules-core"
   dependencies:
@@ -17925,7 +18058,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-modules-test-core@npm:^0.18.0, expo-modules-test-core@workspace:expo/packages/expo-modules-test-core":
+"expo-modules-test-core@link:expo/packages/expo-modules-test-core::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-modules-test-core@link:expo/packages/expo-modules-test-core::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-modules-test-core@workspace:expo/packages/expo-modules-test-core":
   version: 0.0.0-use.local
   resolution: "expo-modules-test-core@workspace:expo/packages/expo-modules-test-core"
   dependencies:
@@ -17939,7 +18078,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-navigation-bar@npm:~3.0.0, expo-navigation-bar@workspace:expo/packages/expo-navigation-bar":
+"expo-navigation-bar@link:expo/packages/expo-navigation-bar::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-navigation-bar@link:expo/packages/expo-navigation-bar::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-navigation-bar@workspace:expo/packages/expo-navigation-bar":
   version: 0.0.0-use.local
   resolution: "expo-navigation-bar@workspace:expo/packages/expo-navigation-bar"
   dependencies:
@@ -17952,7 +18097,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-network-addons@npm:~0.6.0, expo-network-addons@workspace:expo/packages/expo-network-addons":
+"expo-network-addons@link:expo/packages/expo-network-addons::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-network-addons@link:expo/packages/expo-network-addons::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-network-addons@workspace:expo/packages/expo-network-addons":
   version: 0.0.0-use.local
   resolution: "expo-network-addons@workspace:expo/packages/expo-network-addons"
   dependencies:
@@ -17962,7 +18113,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-network@npm:~6.0.0, expo-network@workspace:expo/packages/expo-network":
+"expo-network@link:expo/packages/expo-network::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-network@link:expo/packages/expo-network::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-network@workspace:expo/packages/expo-network":
   version: 0.0.0-use.local
   resolution: "expo-network@workspace:expo/packages/expo-network"
   dependencies:
@@ -17972,7 +18129,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-notifications@npm:~0.28.0, expo-notifications@workspace:expo/packages/expo-notifications":
+"expo-notifications@link:expo/packages/expo-notifications::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-notifications@link:expo/packages/expo-notifications::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-notifications@workspace:expo/packages/expo-notifications":
   version: 0.0.0-use.local
   resolution: "expo-notifications@workspace:expo/packages/expo-notifications"
   dependencies:
@@ -17993,7 +18156,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-print@npm:~13.0.0, expo-print@workspace:expo/packages/expo-print":
+"expo-print@link:expo/packages/expo-print::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-print@link:expo/packages/expo-print::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-print@workspace:expo/packages/expo-print":
   version: 0.0.0-use.local
   resolution: "expo-print@workspace:expo/packages/expo-print"
   dependencies:
@@ -18003,7 +18172,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-processing@npm:2.3.7, expo-processing@workspace:expo/packages/expo-processing":
+"expo-processing@link:expo/packages/expo-processing::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-processing@link:expo/packages/expo-processing::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-processing@workspace:expo/packages/expo-processing":
   version: 0.0.0-use.local
   resolution: "expo-processing@workspace:expo/packages/expo-processing"
   dependencies:
@@ -18027,7 +18202,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-router@npm:^3.0.0, expo-router@workspace:expo/packages/expo-router":
+"expo-router@link:expo/packages/expo-router::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-router@link:expo/packages/expo-router::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-router@workspace:expo/packages/expo-router":
   version: 0.0.0-use.local
   resolution: "expo-router@workspace:expo/packages/expo-router"
   dependencies:
@@ -18068,7 +18249,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-screen-capture@npm:~6.0.0, expo-screen-capture@workspace:expo/packages/expo-screen-capture":
+"expo-screen-capture@link:expo/packages/expo-screen-capture::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-screen-capture@link:expo/packages/expo-screen-capture::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-screen-capture@workspace:expo/packages/expo-screen-capture":
   version: 0.0.0-use.local
   resolution: "expo-screen-capture@workspace:expo/packages/expo-screen-capture"
   dependencies:
@@ -18078,7 +18265,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-screen-orientation@npm:~7.0.0, expo-screen-orientation@workspace:expo/packages/expo-screen-orientation":
+"expo-screen-orientation@link:expo/packages/expo-screen-orientation::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-screen-orientation@link:expo/packages/expo-screen-orientation::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-screen-orientation@workspace:expo/packages/expo-screen-orientation":
   version: 0.0.0-use.local
   resolution: "expo-screen-orientation@workspace:expo/packages/expo-screen-orientation"
   dependencies:
@@ -18088,7 +18281,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-secure-store@npm:~13.0.0, expo-secure-store@workspace:expo/packages/expo-secure-store":
+"expo-secure-store@link:expo/packages/expo-secure-store::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-secure-store@link:expo/packages/expo-secure-store::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-secure-store@workspace:expo/packages/expo-secure-store":
   version: 0.0.0-use.local
   resolution: "expo-secure-store@workspace:expo/packages/expo-secure-store"
   dependencies:
@@ -18098,7 +18297,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-sensors@npm:~13.0.0, expo-sensors@workspace:expo/packages/expo-sensors":
+"expo-sensors@link:expo/packages/expo-sensors::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-sensors@link:expo/packages/expo-sensors::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-sensors@workspace:expo/packages/expo-sensors":
   version: 0.0.0-use.local
   resolution: "expo-sensors@workspace:expo/packages/expo-sensors"
   dependencies:
@@ -18109,7 +18314,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-sharing@npm:~12.0.0, expo-sharing@workspace:expo/packages/expo-sharing":
+"expo-sharing@link:expo/packages/expo-sharing::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-sharing@link:expo/packages/expo-sharing::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-sharing@workspace:expo/packages/expo-sharing":
   version: 0.0.0-use.local
   resolution: "expo-sharing@workspace:expo/packages/expo-sharing"
   dependencies:
@@ -18119,7 +18330,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-sms@npm:~12.0.0, expo-sms@workspace:expo/packages/expo-sms":
+"expo-sms@link:expo/packages/expo-sms::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-sms@link:expo/packages/expo-sms::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-sms@workspace:expo/packages/expo-sms":
   version: 0.0.0-use.local
   resolution: "expo-sms@workspace:expo/packages/expo-sms"
   dependencies:
@@ -18129,7 +18346,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-speech@npm:~12.0.0, expo-speech@workspace:expo/packages/expo-speech":
+"expo-speech@link:expo/packages/expo-speech::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-speech@link:expo/packages/expo-speech::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-speech@workspace:expo/packages/expo-speech":
   version: 0.0.0-use.local
   resolution: "expo-speech@workspace:expo/packages/expo-speech"
   dependencies:
@@ -18139,7 +18362,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-splash-screen@npm:0.27.4, expo-splash-screen@npm:^0.27.0, expo-splash-screen@npm:~0.27.0, expo-splash-screen@workspace:expo/packages/expo-splash-screen":
+"expo-splash-screen@link:expo/packages/expo-splash-screen::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-splash-screen@link:expo/packages/expo-splash-screen::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-splash-screen@workspace:expo/packages/expo-splash-screen":
   version: 0.0.0-use.local
   resolution: "expo-splash-screen@workspace:expo/packages/expo-splash-screen"
   dependencies:
@@ -18150,7 +18379,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-sqlite@npm:~14.0.0, expo-sqlite@workspace:expo/packages/expo-sqlite":
+"expo-sqlite@link:expo/packages/expo-sqlite::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-sqlite@link:expo/packages/expo-sqlite::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-sqlite@workspace:expo/packages/expo-sqlite":
   version: 0.0.0-use.local
   resolution: "expo-sqlite@workspace:expo/packages/expo-sqlite"
   dependencies:
@@ -18164,7 +18399,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-standard-web-crypto@npm:~1.8.0, expo-standard-web-crypto@workspace:expo/packages/expo-standard-web-crypto":
+"expo-standard-web-crypto@link:expo/packages/expo-standard-web-crypto::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-standard-web-crypto@link:expo/packages/expo-standard-web-crypto::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-standard-web-crypto@workspace:expo/packages/expo-standard-web-crypto":
   version: 0.0.0-use.local
   resolution: "expo-standard-web-crypto@workspace:expo/packages/expo-standard-web-crypto"
   dependencies:
@@ -18175,7 +18416,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-status-bar@npm:^1.1.0, expo-status-bar@npm:~1.12.0, expo-status-bar@workspace:expo/packages/expo-status-bar":
+"expo-status-bar@link:expo/packages/expo-status-bar::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-status-bar@link:expo/packages/expo-status-bar::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-status-bar@workspace:expo/packages/expo-status-bar":
   version: 0.0.0-use.local
   resolution: "expo-status-bar@workspace:expo/packages/expo-status-bar"
   dependencies:
@@ -18186,7 +18433,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-store-review@npm:~7.0.0, expo-store-review@workspace:expo/packages/expo-store-review":
+"expo-store-review@link:expo/packages/expo-store-review::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-store-review@link:expo/packages/expo-store-review::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-store-review@workspace:expo/packages/expo-store-review":
   version: 0.0.0-use.local
   resolution: "expo-store-review@workspace:expo/packages/expo-store-review"
   dependencies:
@@ -18196,13 +18449,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-structured-headers@npm:~3.8.0, expo-structured-headers@workspace:expo/packages/expo-structured-headers":
+"expo-structured-headers@link:expo/packages/expo-structured-headers::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-structured-headers@link:expo/packages/expo-structured-headers::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-structured-headers@workspace:expo/packages/expo-structured-headers":
   version: 0.0.0-use.local
   resolution: "expo-structured-headers@workspace:expo/packages/expo-structured-headers"
   languageName: unknown
   linkType: soft
 
-"expo-symbols@npm:~0.1.0, expo-symbols@workspace:expo/packages/expo-symbols":
+"expo-symbols@link:expo/packages/expo-symbols::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-symbols@link:expo/packages/expo-symbols::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-symbols@workspace:expo/packages/expo-symbols":
   version: 0.0.0-use.local
   resolution: "expo-symbols@workspace:expo/packages/expo-symbols"
   dependencies:
@@ -18213,7 +18478,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-system-ui@npm:~3.0.0, expo-system-ui@workspace:expo/packages/expo-system-ui":
+"expo-system-ui@link:expo/packages/expo-system-ui::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-system-ui@link:expo/packages/expo-system-ui::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-system-ui@workspace:expo/packages/expo-system-ui":
   version: 0.0.0-use.local
   resolution: "expo-system-ui@workspace:expo/packages/expo-system-ui"
   dependencies:
@@ -18225,7 +18496,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-task-manager@npm:~11.8.0, expo-task-manager@workspace:expo/packages/expo-task-manager":
+"expo-task-manager@link:expo/packages/expo-task-manager::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-task-manager@link:expo/packages/expo-task-manager::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-task-manager@workspace:expo/packages/expo-task-manager":
   version: 0.0.0-use.local
   resolution: "expo-task-manager@workspace:expo/packages/expo-task-manager"
   dependencies:
@@ -18236,7 +18513,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-test-runner@npm:0.0.20, expo-test-runner@workspace:expo/packages/expo-test-runner":
+"expo-template-blank@workspace:playground/expo-blank":
+  version: 0.0.0-use.local
+  resolution: "expo-template-blank@workspace:playground/expo-blank"
+  dependencies:
+    "@babel/core": "npm:^7.20.0"
+    expo: "npm:~51.0.8"
+    expo-status-bar: "npm:~1.12.1"
+    react: "npm:18.2.0"
+    react-native: "npm:0.74.2"
+  languageName: unknown
+  linkType: soft
+
+"expo-test-runner@link:expo/packages/expo-test-runner::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-test-runner@link:expo/packages/expo-test-runner::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-test-runner@workspace:expo/packages/expo-test-runner":
   version: 0.0.0-use.local
   resolution: "expo-test-runner@workspace:expo/packages/expo-test-runner"
   dependencies:
@@ -18276,7 +18571,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-tracking-transparency@npm:~4.0.0, expo-tracking-transparency@workspace:expo/packages/expo-tracking-transparency":
+"expo-tracking-transparency@link:expo/packages/expo-tracking-transparency::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-tracking-transparency@link:expo/packages/expo-tracking-transparency::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-tracking-transparency@workspace:expo/packages/expo-tracking-transparency":
   version: 0.0.0-use.local
   resolution: "expo-tracking-transparency@workspace:expo/packages/expo-tracking-transparency"
   dependencies:
@@ -18286,7 +18587,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-updates-interface@npm:~0.16.2, expo-updates-interface@workspace:expo/packages/expo-updates-interface":
+"expo-updates-interface@link:expo/packages/expo-updates-interface::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-updates-interface@link:expo/packages/expo-updates-interface::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-updates-interface@workspace:expo/packages/expo-updates-interface":
   version: 0.0.0-use.local
   resolution: "expo-updates-interface@workspace:expo/packages/expo-updates-interface"
   peerDependencies:
@@ -18294,7 +18601,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-updates@npm:0.25.14, expo-updates@npm:~0.25.0, expo-updates@workspace:expo/packages/expo-updates":
+"expo-updates@link:expo/packages/expo-updates::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-updates@link:expo/packages/expo-updates::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-updates@workspace:expo/packages/expo-updates":
   version: 0.0.0-use.local
   resolution: "expo-updates@workspace:expo/packages/expo-updates"
   dependencies:
@@ -18329,7 +18642,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-video-thumbnails@npm:~8.0.0, expo-video-thumbnails@workspace:expo/packages/expo-video-thumbnails":
+"expo-video-thumbnails@link:expo/packages/expo-video-thumbnails::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-video-thumbnails@link:expo/packages/expo-video-thumbnails::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-video-thumbnails@workspace:expo/packages/expo-video-thumbnails":
   version: 0.0.0-use.local
   resolution: "expo-video-thumbnails@workspace:expo/packages/expo-video-thumbnails"
   dependencies:
@@ -18339,7 +18658,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-video@npm:1.1.9, expo-video@workspace:expo/packages/expo-video":
+"expo-video@link:expo/packages/expo-video::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-video@link:expo/packages/expo-video::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-video@workspace:expo/packages/expo-video":
   version: 0.0.0-use.local
   resolution: "expo-video@workspace:expo/packages/expo-video"
   dependencies:
@@ -18349,7 +18674,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo-web-browser@npm:~13.0.0, expo-web-browser@workspace:expo/packages/expo-web-browser":
+"expo-web-browser@link:expo/packages/expo-web-browser::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo-web-browser@link:expo/packages/expo-web-browser::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo-web-browser@workspace:expo/packages/expo-web-browser":
   version: 0.0.0-use.local
   resolution: "expo-web-browser@workspace:expo/packages/expo-web-browser"
   dependencies:
@@ -18359,7 +18690,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"expo@npm:~51.0.0, expo@workspace:expo/packages/expo":
+"expo@link:expo/packages/expo::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "expo@link:expo/packages/expo::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"expo@workspace:expo/packages/expo":
   version: 0.0.0-use.local
   resolution: "expo@workspace:expo/packages/expo"
   dependencies:
@@ -20456,20 +20793,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hermes-estree@npm:0.15.0":
-  version: 0.15.0
-  resolution: "hermes-estree@npm:0.15.0"
-  checksum: 10c0/05a855b73c0a9d24b1aaea3093ef915475e42706321bc152cab2ddaa95496ad275a15f0f99b97738a1d0fb7fa6651a76aaf805ae121a980e377b96fabc75551d
-  languageName: node
-  linkType: hard
-
-"hermes-estree@npm:0.19.1":
-  version: 0.19.1
-  resolution: "hermes-estree@npm:0.19.1"
-  checksum: 10c0/98c79807c15146c745aca7a9c74b9f1ba20a463c8b9f058caed9b3f2741fc4a8609e7e4c06d163f67d819db35cb6871fc7b25085bb9a084bc53d777f67d9d620
-  languageName: node
-  linkType: hard
-
 "hermes-estree@npm:0.20.1":
   version: 0.20.1
   resolution: "hermes-estree@npm:0.20.1"
@@ -20481,24 +20804,6 @@ __metadata:
   version: 0.22.0
   resolution: "hermes-estree@npm:0.22.0"
   checksum: 10c0/4e39ea6b7032568c2d314268e0cbe807b0d004fa397886d8416b1b695bfa477bd4571617b03f24845228e747554491f4bfb13bbb0e289659d7c57ea02273c050
-  languageName: node
-  linkType: hard
-
-"hermes-parser@npm:0.15.0":
-  version: 0.15.0
-  resolution: "hermes-parser@npm:0.15.0"
-  dependencies:
-    hermes-estree: "npm:0.15.0"
-  checksum: 10c0/3171a52e6a6383a8f9c6289a532a571679905fd54ea64f7b043e9a9e8774629a0c507d1968ca7f7c5238f23e501e511c448ac434b7cc1c5bbf0b5d21e9284c55
-  languageName: node
-  linkType: hard
-
-"hermes-parser@npm:0.19.1":
-  version: 0.19.1
-  resolution: "hermes-parser@npm:0.19.1"
-  dependencies:
-    hermes-estree: "npm:0.19.1"
-  checksum: 10c0/940ccef90673b8e905016332d2660ae00ad747e2d32c694a52dce4ea220835dc1bae299554a7a8eeccb449561065bd97f3690363c087fbf69ad7cbff2deeec35
   languageName: node
   linkType: hard
 
@@ -22715,7 +23020,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"jest-expo@npm:~51.0.0-unreleased, jest-expo@workspace:expo/packages/jest-expo":
+"jest-expo@link:expo/packages/jest-expo::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "jest-expo@link:expo/packages/jest-expo::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"jest-expo@workspace:expo/packages/jest-expo":
   version: 0.0.0-use.local
   resolution: "jest-expo@workspace:expo/packages/jest-expo"
   dependencies:
@@ -25542,7 +25853,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro-babel-register@npm:*, metro-babel-register@npm:0.80.9, metro-babel-register@npm:^0.80.0, metro-babel-register@workspace:metro/packages/metro-babel-register":
+"metro-babel-register@link:metro/packages/metro-babel-register::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-babel-register@link:metro/packages/metro-babel-register::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro-babel-register@workspace:metro/packages/metro-babel-register":
   version: 0.0.0-use.local
   resolution: "metro-babel-register@workspace:metro/packages/metro-babel-register"
   dependencies:
@@ -25559,7 +25876,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro-babel-transformer@npm:0.80.9, metro-babel-transformer@workspace:metro/packages/metro-babel-transformer":
+"metro-babel-transformer@link:metro/packages/metro-babel-transformer::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-babel-transformer@link:metro/packages/metro-babel-transformer::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro-babel-transformer@workspace:metro/packages/metro-babel-transformer":
   version: 0.0.0-use.local
   resolution: "metro-babel-transformer@workspace:metro/packages/metro-babel-transformer"
   dependencies:
@@ -25569,7 +25892,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro-cache-key@npm:0.80.9, metro-cache-key@workspace:metro/packages/metro-cache-key":
+"metro-cache-key@link:metro/packages/metro-cache-key::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-cache-key@link:metro/packages/metro-cache-key::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro-cache-key@workspace:metro/packages/metro-cache-key":
   version: 0.0.0-use.local
   resolution: "metro-cache-key@workspace:metro/packages/metro-cache-key"
   dependencies:
@@ -25577,7 +25906,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro-cache@npm:0.80.9, metro-cache@workspace:metro/packages/metro-cache":
+"metro-cache@link:metro/packages/metro-cache::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-cache@link:metro/packages/metro-cache::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro-cache@workspace:metro/packages/metro-cache":
   version: 0.0.0-use.local
   resolution: "metro-cache@workspace:metro/packages/metro-cache"
   dependencies:
@@ -25587,7 +25922,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro-config@npm:0.80.9, metro-config@npm:^0.80.3, metro-config@workspace:metro/packages/metro-config":
+"metro-config@link:metro/packages/metro-config::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-config@link:metro/packages/metro-config::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro-config@workspace:metro/packages/metro-config":
   version: 0.0.0-use.local
   resolution: "metro-config@workspace:metro/packages/metro-config"
   dependencies:
@@ -25604,7 +25945,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro-core@npm:0.80.9, metro-core@npm:^0.80.3, metro-core@workspace:metro/packages/metro-core":
+"metro-core@link:metro/packages/metro-core::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-core@link:metro/packages/metro-core::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro-core@workspace:metro/packages/metro-core":
   version: 0.0.0-use.local
   resolution: "metro-core@workspace:metro/packages/metro-core"
   dependencies:
@@ -25613,7 +25960,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro-file-map@npm:0.80.9, metro-file-map@workspace:metro/packages/metro-file-map":
+"metro-file-map@link:metro/packages/metro-file-map::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-file-map@link:metro/packages/metro-file-map::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro-file-map@workspace:metro/packages/metro-file-map":
   version: 0.0.0-use.local
   resolution: "metro-file-map@workspace:metro/packages/metro-file-map"
   dependencies:
@@ -25635,20 +25988,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro-memory-fs@npm:0.78.0":
-  version: 0.78.0
-  resolution: "metro-memory-fs@npm:0.78.0"
-  checksum: 10c0/12720e52cca69a8db9f75b533d04d91be09c2cce13069b7443f64c2507919ea031bcf4b3e22fba3a17ee601fd654da651e3c6608e5350bfc279f6d550eed1967
+"metro-memory-fs@link:metro/packages/metro-memory-fs::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-memory-fs@link:metro/packages/metro-memory-fs::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"metro-memory-fs@npm:0.80.9, metro-memory-fs@npm:^0.80.0, metro-memory-fs@workspace:metro/packages/metro-memory-fs":
+"metro-memory-fs@workspace:metro/packages/metro-memory-fs":
   version: 0.0.0-use.local
   resolution: "metro-memory-fs@workspace:metro/packages/metro-memory-fs"
   languageName: unknown
   linkType: soft
 
-"metro-minify-terser@npm:0.80.9, metro-minify-terser@workspace:metro/packages/metro-minify-terser":
+"metro-minify-terser@link:metro/packages/metro-minify-terser::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-minify-terser@link:metro/packages/metro-minify-terser::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro-minify-terser@workspace:metro/packages/metro-minify-terser":
   version: 0.0.0-use.local
   resolution: "metro-minify-terser@workspace:metro/packages/metro-minify-terser"
   dependencies:
@@ -25656,7 +26014,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro-resolver@npm:0.80.9, metro-resolver@npm:^0.80.3, metro-resolver@workspace:metro/packages/metro-resolver":
+"metro-resolver@link:metro/packages/metro-resolver::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-resolver@link:metro/packages/metro-resolver::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro-resolver@workspace:metro/packages/metro-resolver":
   version: 0.0.0-use.local
   resolution: "metro-resolver@workspace:metro/packages/metro-resolver"
   dependencies:
@@ -25664,7 +26028,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro-runtime@npm:0.80.9, metro-runtime@npm:^0.80.3, metro-runtime@workspace:metro/packages/metro-runtime":
+"metro-runtime@link:metro/packages/metro-runtime::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-runtime@link:metro/packages/metro-runtime::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro-runtime@workspace:metro/packages/metro-runtime":
   version: 0.0.0-use.local
   resolution: "metro-runtime@workspace:metro/packages/metro-runtime"
   dependencies:
@@ -25676,7 +26046,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro-source-map@npm:0.80.9, metro-source-map@npm:^0.80.3, metro-source-map@workspace:metro/packages/metro-source-map":
+"metro-source-map@link:metro/packages/metro-source-map::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-source-map@link:metro/packages/metro-source-map::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro-source-map@workspace:metro/packages/metro-source-map":
   version: 0.0.0-use.local
   resolution: "metro-source-map@workspace:metro/packages/metro-source-map"
   dependencies:
@@ -25694,7 +26070,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro-symbolicate@npm:0.80.9, metro-symbolicate@workspace:metro/packages/metro-symbolicate":
+"metro-symbolicate@link:metro/packages/metro-symbolicate::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-symbolicate@link:metro/packages/metro-symbolicate::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro-symbolicate@workspace:metro/packages/metro-symbolicate":
   version: 0.0.0-use.local
   resolution: "metro-symbolicate@workspace:metro/packages/metro-symbolicate"
   dependencies:
@@ -25709,7 +26091,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro-transform-plugins@npm:0.80.9, metro-transform-plugins@workspace:metro/packages/metro-transform-plugins":
+"metro-transform-plugins@link:metro/packages/metro-transform-plugins::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-transform-plugins@link:metro/packages/metro-transform-plugins::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro-transform-plugins@workspace:metro/packages/metro-transform-plugins":
   version: 0.0.0-use.local
   resolution: "metro-transform-plugins@workspace:metro/packages/metro-transform-plugins"
   dependencies:
@@ -25728,7 +26116,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro-transform-worker@npm:0.80.9, metro-transform-worker@workspace:metro/packages/metro-transform-worker":
+"metro-transform-worker@link:metro/packages/metro-transform-worker::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro-transform-worker@link:metro/packages/metro-transform-worker::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro-transform-worker@workspace:metro/packages/metro-transform-worker":
   version: 0.0.0-use.local
   resolution: "metro-transform-worker@workspace:metro/packages/metro-transform-worker"
   dependencies:
@@ -25749,7 +26143,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"metro@npm:0.80.9, metro@npm:^0.80.3, metro@workspace:metro/packages/metro":
+"metro@link:metro/packages/metro::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "metro@link:metro/packages/metro::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"metro@workspace:metro/packages/metro":
   version: 0.0.0-use.local
   resolution: "metro@workspace:metro/packages/metro"
   dependencies:
@@ -27489,7 +27889,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ob1@npm:0.80.9, ob1@workspace:metro/packages/ob1":
+"ob1@link:metro/packages/ob1::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "ob1@link:metro/packages/ob1::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"ob1@workspace:metro/packages/ob1":
   version: 0.0.0-use.local
   resolution: "ob1@workspace:metro/packages/ob1"
   languageName: unknown
@@ -29531,7 +29937,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-devtools-core@npm:^5.0.0, react-devtools-core@npm:^5.3.1":
+"react-devtools-core@npm:^5.3.1":
   version: 5.3.1
   resolution: "react-devtools-core@npm:5.3.1"
   dependencies:
@@ -29933,60 +30339,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.74.2":
-  version: 0.74.2
-  resolution: "react-native@npm:0.74.2"
-  dependencies:
-    "@jest/create-cache-key-function": "npm:^29.6.3"
-    "@react-native-community/cli": "npm:13.6.8"
-    "@react-native-community/cli-platform-android": "npm:13.6.8"
-    "@react-native-community/cli-platform-ios": "npm:13.6.8"
-    "@react-native/assets-registry": "npm:0.74.84"
-    "@react-native/codegen": "npm:0.74.84"
-    "@react-native/community-cli-plugin": "npm:0.74.84"
-    "@react-native/gradle-plugin": "npm:0.74.84"
-    "@react-native/js-polyfills": "npm:0.74.84"
-    "@react-native/normalize-colors": "npm:0.74.84"
-    "@react-native/virtualized-lists": "npm:0.74.84"
-    abort-controller: "npm:^3.0.0"
-    anser: "npm:^1.4.9"
-    ansi-regex: "npm:^5.0.0"
-    base64-js: "npm:^1.5.1"
-    chalk: "npm:^4.0.0"
-    event-target-shim: "npm:^5.0.1"
-    flow-enums-runtime: "npm:^0.0.6"
-    invariant: "npm:^2.2.4"
-    jest-environment-node: "npm:^29.6.3"
-    jsc-android: "npm:^250231.0.0"
-    memoize-one: "npm:^5.0.0"
-    metro-runtime: "npm:^0.80.3"
-    metro-source-map: "npm:^0.80.3"
-    mkdirp: "npm:^0.5.1"
-    nullthrows: "npm:^1.1.1"
-    pretty-format: "npm:^26.5.2"
-    promise: "npm:^8.3.0"
-    react-devtools-core: "npm:^5.0.0"
-    react-refresh: "npm:^0.14.0"
-    react-shallow-renderer: "npm:^16.15.0"
-    regenerator-runtime: "npm:^0.13.2"
-    scheduler: "npm:0.24.0-canary-efb381bbf-20230505"
-    stacktrace-parser: "npm:^0.1.10"
-    whatwg-fetch: "npm:^3.0.0"
-    ws: "npm:^6.2.2"
-    yargs: "npm:^17.6.2"
-  peerDependencies:
-    "@types/react": ^18.2.6
-    react: 18.2.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  bin:
-    react-native: cli.js
-  checksum: 10c0/a424c7bf8e91c83f090215c40d0b97b696f22cbc632e8a18cf3608a386b9555125c4f9197a69962260d8cc69ee80ca136e7f9c796d13fd11cdb3c141c3485805
+"react-native@link:react-native/packages/react-native::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "react-native@link:react-native/packages/react-native::locator=root-workspace-0b6124%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"react-native@npm:0.75.0-rc.5, react-native@workspace:react-native/packages/react-native":
+"react-native@workspace:react-native/packages/react-native":
   version: 0.0.0-use.local
   resolution: "react-native@workspace:react-native/packages/react-native"
   dependencies:
@@ -30094,13 +30453,6 @@ __metadata:
   version: 0.14.2
   resolution: "react-refresh@npm:0.14.2"
   checksum: 10c0/875b72ef56b147a131e33f2abd6ec059d1989854b3ff438898e4f9310bfcc73acff709445b7ba843318a953cb9424bcc2c05af2b3d80011cee28f25aef3e2ebb
-  languageName: node
-  linkType: hard
-
-"react-refresh@npm:^0.4.0":
-  version: 0.4.3
-  resolution: "react-refresh@npm:0.4.3"
-  checksum: 10c0/2b4e4b14b54bfbdfdd6d1c16b8476151b3e61083387061d4e5923b0342c678f6d0f23705835c3a04ab151bd92551d437395da3fb52ea7461a408f457d11ac6fa
   languageName: node
   linkType: hard
 
@@ -31265,15 +31617,6 @@ __metadata:
   dependencies:
     xmlchars: "npm:^2.2.0"
   checksum: 10c0/3847b839f060ef3476eb8623d099aa502ad658f5c40fd60c105ebce86d244389b0d76fcae30f4d0c728d7705ceb2f7e9b34bb54717b6a7dbedaf5dad2d9a4b74
-  languageName: node
-  linkType: hard
-
-"scheduler@npm:0.24.0-canary-efb381bbf-20230505":
-  version: 0.24.0-canary-efb381bbf-20230505
-  resolution: "scheduler@npm:0.24.0-canary-efb381bbf-20230505"
-  dependencies:
-    loose-envify: "npm:^1.1.0"
-  checksum: 10c0/4fb594d64c692199117160bbd1a5261f03287f8ec59d9ca079a772e5fbb3139495ebda843324d7c8957c07390a0825acb6f72bd29827fb9e155d793db6c2e2bc
   languageName: node
   linkType: hard
 
@@ -33163,7 +33506,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"test-suite@npm:*, test-suite@workspace:expo/apps/test-suite":
+"test-suite@link:expo/apps/test-suite::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "test-suite@link:expo/apps/test-suite::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"test-suite@workspace:expo/apps/test-suite":
   version: 0.0.0-use.local
   resolution: "test-suite@workspace:expo/apps/test-suite"
   dependencies:
@@ -34216,7 +34565,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unimodules-app-loader@npm:~4.6.0, unimodules-app-loader@workspace:expo/packages/unimodules-app-loader":
+"unimodules-app-loader@link:expo/packages/unimodules-app-loader::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "unimodules-app-loader@link:expo/packages/unimodules-app-loader::locator=root-workspace-0b6124%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"unimodules-app-loader@workspace:expo/packages/unimodules-app-loader":
   version: 0.0.0-use.local
   resolution: "unimodules-app-loader@workspace:expo/packages/unimodules-app-loader"
   dependencies:
