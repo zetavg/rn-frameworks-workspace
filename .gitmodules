@@ -1,0 +1,12 @@
+[submodule "react-native"]
+	path = react-native
+	url = git@github.com:zetavg/react-native.git
+[submodule "react-native-cli"]
+	path = react-native-cli
+	url = git@github.com:zetavg/react-native-community-cli.git
+[submodule "metro"]
+	path = metro
+	url = git@github.com:zetavg/metro.git
+[submodule "expo"]
+	path = expo
+	url = git@github.com:zetavg/expo.git
