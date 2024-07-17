@@ -9,6 +9,8 @@
     "playground/*"
   ],
   "resolutions": {
+    "react": "portal:react",
+    "react-dom": "portal:react-dom",
     "@react-native/assets-registry": "link:react-native/packages/assets",
     "@react-native/babel-plugin-codegen": "link:react-native/packages/babel-plugin-codegen",
     "@react-native/community-cli-plugin": "link:react-native/packages/community-cli-plugin",

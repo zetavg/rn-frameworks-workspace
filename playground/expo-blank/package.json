@@ -2,15 +2,15 @@
   "name": "expo-template-blank",
   "description": "The Blank project template includes the minimum dependencies to run and an empty root component.",
   "version": "51.0.27",
-  "installConfig": {
-    "hoistingLimits": "workspaces"
-  },
-  "main": "expo/AppEntry.js",
+  "main": "./AppEntry.js",
   "scripts": {
     "start": "../../expo/packages/@expo/cli/build/bin/cli start",
     "android": "../../expo/packages/@expo/cli/build/bin/cli start --android",
     "ios": "../../expo/packages/@expo/cli/build/bin/cli start --ios",
     "web": "../../expo/packages/@expo/cli/build/bin/cli start --web"
+  },
+  "installConfig": {
+    "hoistingLimits": "workspaces"
   },
   "dependencies": {
     "expo": "~51.0.8",

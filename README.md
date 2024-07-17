@@ -36,6 +36,23 @@ Then, `cd` into each project and run `yarn build` to build the packages, except 
 
 Note that in the root `package.json`, we're using the `resolutions` field to force the use of the local packages as we have encountered situations where some of the `react-native` or `react-native-cli` packages in node_modules are not linked to the local packages as expected but installed from NPM.
 
+### A Note on React
+
+To ensure that everyone is using the same version of React, the `react` and `react-dom` packages are downloaded from NPM and committed into the repository.
+
+In the `resolutions` filed of the root `package.json`, `react` and `react-dom` are set as [portal](https://yarnpkg.com/protocol/portal)s to those downloaded packages.
+
+To update the React version, you can, for example, run the following commands in the root `node_modules` directory:
+
+```bash
+npm pack react@19.0.0-rc-fb9a90fa48-20240614 && tar zxvf react-*.tgz && rm react-*.tgz && rm -rf react && mv -f package react
+
+npm pack react-dom@19.0.0-rc-fb9a90fa48-20240614 && tar zxvf react-dom-*.tgz && rm react-dom-*.tgz && rm -rf react-dom && mv -f package react-dom
+```
+
+> Note: `react` and `react-dom` are placed inside the root `node_modules` so that tools which seems to not support symbolic links (such as Metro) can somehow still find them.
+
+> Note: The "react" and "react-native-renderer" packages must have the exact same version.
 
 ## Running
 
