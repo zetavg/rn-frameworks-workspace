@@ -13,7 +13,7 @@ Then, ensure the following patches are made to each project (you can skip this p
 
 * **All**: Remove `yarn.lock`.
 * **`react-native`**:
-  * Replace `rimraf`s with `rm -rf` in `"script"` of `package.json`s as a workaround for `rimraf` not being available while installed with yarn workspaces (and we're not using Windows anyway).
+  * Replace `rimraf`s with `rm -rf` in `"scripts"` of `package.json`s as a workaround for `rimraf` not being available while installed with yarn workspaces (and we're not using Windows anyway).
   * Change `./src` to `./dist` for the exports in `package.json` for these packages:
     * `packages/metro-config`
     * `packages/dev-middleware`
