@@ -45,9 +45,9 @@ In the `resolutions` filed of the root `package.json`, `react` and `react-dom` a
 To update the React version, you can, for example, run the following commands in the root `node_modules` directory:
 
 ```bash
-npm pack react@19.0.0 && tar zxvf react-*.tgz && rm react-*.tgz && rm -rf react && mv -f package react
+npm pack react@18.3.1 && tar zxvf react-*.tgz && rm react-*.tgz && rm -rf react && mv -f package react
 
-npm pack react-dom@19.0.0 && tar zxvf react-dom-*.tgz && rm react-dom-*.tgz && rm -rf react-dom && mv -f package react-dom
+npm pack react-dom@18.3.1 && tar zxvf react-dom-*.tgz && rm react-dom-*.tgz && rm -rf react-dom && mv -f package react-dom
 ```
 
 > Note: `react` and `react-dom` are placed inside the root `node_modules` so that tools which seems to not support symbolic links (such as Metro) can somehow still find them.
