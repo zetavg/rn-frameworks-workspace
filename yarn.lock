@@ -4215,6 +4215,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@expo/vector-icons@npm:^14.0.2":
+  version: 14.0.4
+  resolution: "@expo/vector-icons@npm:14.0.4"
+  dependencies:
+    prop-types: "npm:^15.8.1"
+  checksum: 10c0/230543be93212f538200b5a6d708a22697c29c00faf054b5c224e5a1fde1feacf96d04ab870d780e1351975503035084fd2187acca2cc2bbd09d8935b2efbfa0
+  languageName: node
+  linkType: hard
+
 "@expo/xcpretty@npm:^4.3.0":
   version: 4.3.1
   resolution: "@expo/xcpretty@npm:4.3.1"
@@ -20011,6 +20020,45 @@ __metadata:
   languageName: node
   linkType: hard
 
+"expo-router-app@workspace:playground/expo-router-app":
+  version: 0.0.0-use.local
+  resolution: "expo-router-app@workspace:playground/expo-router-app"
+  dependencies:
+    "@babel/core": "npm:^7.25.2"
+    "@expo/vector-icons": "npm:^14.0.2"
+    "@react-navigation/bottom-tabs": "npm:^7.2.0"
+    "@react-navigation/native": "npm:^7.0.14"
+    "@types/jest": "npm:^29.5.12"
+    "@types/react": "npm:~18.3.12"
+    "@types/react-test-renderer": "npm:^18.3.0"
+    expo: "npm:~52.0.23"
+    expo-blur: "npm:~14.0.1"
+    expo-constants: "npm:~17.0.3"
+    expo-font: "npm:~13.0.2"
+    expo-haptics: "npm:~14.0.0"
+    expo-linking: "npm:~7.0.3"
+    expo-router: "npm:~4.0.15"
+    expo-splash-screen: "npm:~0.29.18"
+    expo-status-bar: "npm:~2.0.0"
+    expo-symbols: "npm:~0.2.0"
+    expo-system-ui: "npm:~4.0.6"
+    expo-web-browser: "npm:~14.0.1"
+    jest: "npm:^29.2.1"
+    jest-expo: "npm:~52.0.2"
+    react: "npm:18.3.1"
+    react-dom: "npm:18.3.1"
+    react-native: "npm:0.76.5"
+    react-native-gesture-handler: "npm:~2.20.2"
+    react-native-reanimated: "npm:~3.16.1"
+    react-native-safe-area-context: "npm:4.12.0"
+    react-native-screens: "npm:~4.4.0"
+    react-native-web: "npm:~0.19.13"
+    react-native-webview: "npm:13.12.5"
+    react-test-renderer: "npm:18.3.1"
+    typescript: "npm:^5.3.3"
+  languageName: unknown
+  linkType: soft
+
 "expo-router@link:expo/packages/expo-router::locator=root-workspace-0b6124%40workspace%3A.":
   version: 0.0.0-use.local
   resolution: "expo-router@link:expo/packages/expo-router::locator=root-workspace-0b6124%40workspace%3A."
@@ -31968,9 +32016,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-dom@portal:react-dom::locator=root-workspace-0b6124%40workspace%3A."
   dependencies:
-    scheduler: "npm:0.25.0-rc-fb9a90fa48-20240614"
+    loose-envify: "npm:^1.1.0"
+    scheduler: "npm:^0.23.2"
   peerDependencies:
-    react: 19.0.0-rc-fb9a90fa48-20240614
+    react: ^18.3.1
   languageName: node
   linkType: soft
 
@@ -32570,6 +32619,8 @@ __metadata:
 "react@portal:react::locator=root-workspace-0b6124%40workspace%3A.":
   version: 0.0.0-use.local
   resolution: "react@portal:react::locator=root-workspace-0b6124%40workspace%3A."
+  dependencies:
+    loose-envify: "npm:^1.1.0"
   languageName: node
   linkType: soft
 
@@ -36678,6 +36729,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@npm:^5.3.3":
+  version: 5.7.2
+  resolution: "typescript@npm:5.7.2"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/a873118b5201b2ef332127ef5c63fb9d9c155e6fdbe211cbd9d8e65877283797cca76546bad742eea36ed7efbe3424a30376818f79c7318512064e8625d61622
+  languageName: node
+  linkType: hard
+
 "typescript@patch:typescript@npm%3A5.0.4#optional!builtin<compat/typescript>":
   version: 5.0.4
   resolution: "typescript@patch:typescript@npm%3A5.0.4#optional!builtin<compat/typescript>::version=5.0.4&hash=b5f058"
@@ -36705,6 +36766,16 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 10c0/911c7811d61f57f07df79c4a35f56a0f426a65426a020e5fcd792f66559f399017205f5f10255329ab5a3d8c2d1f1d19530aeceffda70758a521fae1d469432e
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A^5.3.3#optional!builtin<compat/typescript>":
+  version: 5.7.2
+  resolution: "typescript@patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=379a07"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/c891ccf04008bc1305ba34053db951f8a4584b4a1bf2f68fd972c4a354df3dc5e62c8bfed4f6ac2d12e5b3b1c49af312c83a651048f818cd5b4949d17baacd79
   languageName: node
   linkType: hard
 
