@@ -10,3 +10,6 @@
 [submodule "expo"]
 	path = expo
 	url = git@github.com:zetavg/expo.git
+[submodule "react-navigation"]
+	path = react-navigation
+	url = git@github.com:zetavg/react-navigation.git

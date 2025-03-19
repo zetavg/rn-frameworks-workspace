@@ -6,6 +6,7 @@
     "react-native-cli",
     "metro",
     "expo",
+    "react-navigation",
     "playground/*"
   ],
   "resolutions": {
@@ -182,6 +183,18 @@
     "patch-project": "link:expo/packages/patch-project",
     "pod-install": "link:expo/packages/pod-install",
     "unimodules-app-loader": "link:expo/packages/unimodules-app-loader",
-    "uri-scheme": "link:expo/packages/uri-scheme"
+    "@react-navigation/uri-scheme": "link:expo/packages/uri-scheme",
+    "@react-navigation/bottom-tabs": "link:react-navigation/packages/bottom-tabs",
+    "@react-navigation/core": "link:react-navigation/packages/core",
+    "@react-navigation/devtools": "link:react-navigation/packages/devtools",
+    "@react-navigation/drawer": "link:react-navigation/packages/drawer",
+    "@react-navigation/elements": "link:react-navigation/packages/elements",
+    "@react-navigation/material-top-tabs": "link:react-navigation/packages/material-top-tabs",
+    "@react-navigation/native": "link:react-navigation/packages/native",
+    "@react-navigation/native-stack": "link:react-navigation/packages/native-stack",
+    "@react-navigation/react-native-drawer-layout": "link:react-navigation/packages/react-native-drawer-layout",
+    "@react-navigation/react-native-tab-view": "link:react-navigation/packages/react-native-tab-view",
+    "@react-navigation/routers": "link:react-navigation/packages/routers",
+    "@react-navigation/stack": "link:react-navigation/packages/stack"
   }
 }
