@@ -1,0 +1,25 @@
+{
+  "name": "expo-react-navigation-basic",
+  "main": "./AppEntry.ts",
+  "scripts": {
+    "start": "../../expo/packages/@expo/cli/build/bin/cli start",
+    "android": "../../expo/packages/@expo/cli/build/bin/cli start --android",
+    "ios": "../../expo/packages/@expo/cli/build/bin/cli start --ios",
+    "web": "../../expo/packages/@expo/cli/build/bin/cli start --web"
+  },
+  "installConfig": {
+    "hoistingLimits": "workspaces"
+  },
+  "dependencies": {
+    "@react-navigation/core": "workspace:^",
+    "@react-navigation/devtools": "workspace:^",
+    "@react-navigation/routers": "workspace:^",
+    "expo": "workspace:^",
+    "expo-status-bar": "workspace:^",
+    "react": "18.2.0",
+    "react-native": "workspace:^"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  }
+}
